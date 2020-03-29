@@ -16,8 +16,8 @@ public class 시저암호TEST implements TEST {
     
     @Test
     public void solutionTest() {
-//        assertEquals("BC", test.solution("AB", 1));
-//        assertEquals("a", test.solution("z", 1));
+        assertEquals("BC", test.solution("AB", 1));
+        assertEquals("a", test.solution("z", 1));
         assertEquals("e F d", test.solution("a B z", 4));
     }
 
