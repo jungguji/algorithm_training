@@ -7,12 +7,15 @@ public class test {
         char[] answer = new char[stringLength];
         
         for (char element : charArray) {
-            
             for (int i = 0; i < stringLength; i++) {
-                char ch = charArray[i];
+                char ch = answer[i];
+                if (0 == ch) {
+                    answer[i] = element;
+                    break;
+                }
                 if (ch >= element) {
-                    for (int k = stringLength-1; k > i; k--) {
-                        answer[k] = answer[k-1];
+                    for (int j = stringLength-1; j > i; j--) {
+                        answer[j] = answer[j-1];
                     }
                     
                     answer[i] = element;

@@ -15,8 +15,12 @@ public class testTEST implements TEST {
 
     @Test
     public void solutionTest() {
-//        assertEquals("aelpp", test.vvv("apple"));
+        assertEquals("aelpp", test.vvv("apple"));
         assertEquals("abexzzz", test.vvv("azzbexz"));
+        assertEquals("abexzzz", test.vvv("azebzxz"));
+        assertEquals("abexzzz", test.vvv("zeabzxz"));
+        assertEquals("abexzzz", test.vvv("zaezxzb"));
+        assertEquals("abexzzz", test.vvv("zebzxza"));
     }
 
 }
