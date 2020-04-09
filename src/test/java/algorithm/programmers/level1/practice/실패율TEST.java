@@ -46,30 +46,33 @@ public class 실패율TEST implements TEST {
     
     @Test
     public void getStageMapTest2() {
-        int[] stages = {1,1,1,1,2};
-        Map<Integer, Integer> actual = new HashMap<Integer, Integer>();
-        actual.put(1, 80);
-        actual.put(2, 1);
-        actual.put(3, 0);
-        actual.put(4, 0);
-        
-        Map<Integer, Integer> map = test.getStageMap(4, stages);
-        assertTrue(map.containsKey(1));
-        assertTrue(map.containsKey(2));
-        assertTrue(map.containsKey(3));
-        assertTrue(map.containsKey(4));
-        
-        assertEquals(80, map.get(1));
-        assertEquals(1, map.get(2));
-        assertEquals(0, map.get(3));
-        assertEquals(0, map.get(4));
+//        int[] stages = {1,1,1,1,2};
+//        Map<Integer, Integer> actual = new HashMap<Integer, Integer>();
+//        actual.put(1, 80);
+//        actual.put(2, 100);
+//        actual.put(3, 0);
+//        actual.put(4, 0);
+//        
+//        Map<Integer, Integer> map = test.getStageMap(4, stages);
+//        assertTrue(map.containsKey(1));
+//        assertTrue(map.containsKey(2));
+//        assertTrue(map.containsKey(3));
+//        assertTrue(map.containsKey(4));
+//        
+//        assertEquals(80, map.get(1));
+//        assertEquals(100, map.get(2));
+//        assertEquals(0, map.get(3));
+//        assertEquals(0, map.get(4));
     }
     
     @Test
     public void solutionTest() {
-//        assertArrayEquals(new int[] {3,4,2,1,5}, test.solution(5, new int[] {2, 1, 2, 6, 2, 4, 3, 3}));
-//        assertArrayEquals(new int[] {4,1,2,3}, test.solution(4, new int[] {4,4,4,4,4}));
-//        assertArrayEquals(new int[] {2,1,3,4}, test.solution(4, new int[] {1,1,1,1,2}));
+        assertArrayEquals(new int[] {3,4,2,1,5}, test.solution(5, new int[] {2, 1, 2, 6, 2, 4, 3, 3}));
+        assertArrayEquals(new int[] {4,1,2,3}, test.solution(4, new int[] {4,4,4,4,4}));
+        assertArrayEquals(new int[] {2,1,3,4}, test.solution(4, new int[] {1,1,1,1,2}));
+        assertArrayEquals(new int[] {4,2,3,1}, test.solution(4, new int[] {3,2,5,4,2}));
+        assertArrayEquals(new int[] {7,6,2,3,5,4,1}, test.solution(7, new int[] {2, 1, 2, 6, 2, 4, 3, 3,7,5}));
+        assertArrayEquals(new int[] {1,2,3,4,5}, test.solution(5, new int[] {}));
     }
 
 }
