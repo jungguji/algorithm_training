@@ -26,7 +26,7 @@ public class 프린터 {
                 }
             }
             
-            answer++;
+            ++answer;
             if (location == 0) {
                 break;
             }
@@ -36,35 +36,5 @@ public class 프린터 {
         }
         
         return answer;
-        
-//        while (true) {
-//            int temp = 0;
-//            for (int i = 1; i < size; i++) {
-//                if (priorities[i] > priorities[0]) {
-//                    temp = priorities[0];
-//                    
-//                    for (int j = 1; j < size; j++) {
-//                        priorities[j-1] = priorities[j];
-//                    }
-//                    
-//                    priorities[size-1] = temp;
-//                    break;
-//                }
-//            }
-//        }
-        
-//        Queue<Map<Double,Integer>> queue = new LinkedBlockingQueue<Map<Double,Integer>>();
-//        for (int i = 0; i < size; i++) {
-//            Map<Double, Integer> map = new HashMap<Double,Integer>();
-//            map.put((Math.random()), priorities[i]);
-//            queue.offer(map);
-//        }
-//        
-//        for (int i = 0; i < size; i++) {
-//            System.out.println(queue.poll());
-//        }
-        
-//        int answer = 0;
-//        return answer;
     }
 }
