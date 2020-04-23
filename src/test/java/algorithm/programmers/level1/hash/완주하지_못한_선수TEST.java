@@ -3,14 +3,14 @@ package algorithm.programmers.level1.hash;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class 완주하지_못한_선수TEST {
 
-    private 완주하지_못한_선수 test;
+    private 완주하지_못한_선수 test; 
     
-    @Before
+    @BeforeEach
     public void setup() {
         test = new 완주하지_못한_선수();
     }
