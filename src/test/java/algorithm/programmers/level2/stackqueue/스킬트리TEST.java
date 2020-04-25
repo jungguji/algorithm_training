@@ -1,4 +1,4 @@
-package algorithm.programmers.level2.practice;
+package algorithm.programmers.level2.stackqueue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import algorithm.programmers.level1.practice.TEST;
+import algorithm.programmers.level2.stackqueue.스킬트리;
 
 public class 스킬트리TEST implements TEST {
 

@@ -1,4 +1,4 @@
-package algorithm.programmers.level2.practice;
+package algorithm.programmers.level2.stackqueue;
 
 import java.util.ArrayList;
 import java.util.Collections;
