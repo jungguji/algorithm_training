@@ -22,6 +22,7 @@ public class 멀쩡한_사각형TEST implements TEST {
         assertEquals(12, test.solution(5, 4));
         assertEquals(40, test.solution(10, 5));
         assertEquals(352, test.solution(17, 23));
+        assertEquals(30467460, test.solution(3, 15233730));
     }
 
 }
