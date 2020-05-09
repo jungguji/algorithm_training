@@ -67,7 +67,5 @@ public class 다리를_지나는_트럭 {
         public void setWeight(int weight) {
             this.weight = weight;
         }
-        
-        
     }
 }
