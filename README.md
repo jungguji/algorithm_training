@@ -19,3 +19,14 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)|[JAVA](/src/main/java/algorithm/programmers/level2/hash/위장.java)|[TEST](/src/test/java/algorithm/programmers/level2/hash/위장TEST.java)|[블로그](https://jungguji.github.io/2020/05/15/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%9C%84%EC%9E%A5/)
 |[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|[JAVA](/src/main/java/algorithm/programmers/level2/hash/전화번호_목록.java)|[TEST](/src/test/java/algorithm/programmers/level2/hash/전화번호_목록TEST.java)|[블로그](https://jungguji.github.io/2020/05/12/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8-%EB%AA%A9%EB%A1%9D/)
+
+* * *
+
+## 백준
+
+### 문자열
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[단어의 개수](https://www.acmicpc.net/problem/1152)|[JAVA](/src/main/java/algorithm/baekjoon/string/단어의_개수.java)|[TEST](/src/test/java/algorithm/baekjoon/string/단어의_개수TEST.java)|[블로그]()
+
