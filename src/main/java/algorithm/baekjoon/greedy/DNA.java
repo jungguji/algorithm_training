@@ -17,17 +17,10 @@ public class DNA {
         int dnaAmonut = Integer.parseInt(countAndLengthArray[0]);
         String[] dnaArray = setDNAList(br, dnaAmonut);
 
-        List<String[]> list = getHammingDNAList(dnaArray, Integer.parseInt(countAndLengthArray[1]));
+        String[] answer = solution(dnaAmonut, Integer.parseInt(countAndLengthArray[1]), dnaArray);
 
-        StringBuilder sb = new StringBuilder();
-        int answer = 0;
-        for (String[] array : list) {
-            sb.append(array[0]);
-            answer += (dnaAmonut - Integer.parseInt(array[1]));
-        }
-
-        System.out.println(sb.toString());
-        System.out.println(answer);
+        System.out.println(answer[0]);
+        System.out.println(answer[1]);
 
     }
 
@@ -38,6 +31,23 @@ public class DNA {
         }
 
         return dnaArray;
+    }
+
+    public static String[] solution(int dnaAmount, int dnaLength, String[] array) {
+        List<String[]> list = getHammingDNAList(array, dnaLength);
+
+        StringBuilder sb = new StringBuilder();
+        int count = 0;
+        for (String[] arrays : list) {
+            sb.append(arrays[0]);
+            count += (dnaAmount - Integer.parseInt(arrays[1]));
+        }
+
+        String[] answer = new String[2];
+        answer[0] = sb.toString();
+        answer[1] = String.valueOf(count);
+
+        return answer;
     }
 
     private static List<String[]> getHammingDNAList(String[] dnaArray, int dnaLength) {
@@ -72,8 +82,6 @@ public class DNA {
                     dnaFrontAndCount[1] = String.valueOf(max);
                 }
             }
-
-            list.add(dnaFrontA
 
             list.add(dnaFrontAndCount);
         }
