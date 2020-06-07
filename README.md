@@ -36,3 +36,4 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[DNA](https://www.acmicpc.net/problem/1152)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/DNA.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/DNATest.java)|[]()
+|[로프](https://www.acmicpc.net/problem/2217)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/로프.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/로프Test.java)|[]()
