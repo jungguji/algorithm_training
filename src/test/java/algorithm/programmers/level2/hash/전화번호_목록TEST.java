@@ -1,11 +1,10 @@
 package algorithm.programmers.level2.hash;
 
-import static org.junit.Assert.*;
-
+import algorithm.programmers.level1.practice.TEST;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import algorithm.programmers.level1.practice.TEST;
+import static org.junit.Assert.*;
 
 public class 전화번호_목록TEST implements TEST {
 

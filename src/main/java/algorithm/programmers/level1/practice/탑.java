@@ -1,19 +1,41 @@
 package algorithm.programmers.level1.practice;
 
+import java.util.Stack;
+
 public class 탑 {
     public int[] solution(int[] heights) {
-        int length = heights.length;
-        int[] answer = new int[length];
-        
-        for (int i = length - 1; i >= 0; i--) {
-            for (int j = i; j >= 0; j--) {
-                if (heights[j] > heights[i]) {
-                    answer[i] = j + 1;
+        Stack<Tower> st = new Stack<>();
+        int[] answer = new int[heights.length];
+
+        for (int i = 0; i < heights.length; i++) {
+            Tower tower = new Tower(i + 1, heights[i]);
+            int receiveIdx = 0;
+
+            while (!st.isEmpty()) {
+                Tower top = st.peek();
+
+                if (top.height > tower.height) {
+                    receiveIdx = top.idx;
                     break;
                 }
+
+                st.pop();
             }
+
+            st.push(tower);
+            answer[i] = receiveIdx;
         }
-        
+
         return answer;
+    }
+
+    class Tower {
+        int idx;
+        int height;
+
+        public Tower(int idx, int height) {
+            this.idx = idx;
+            this.height = height;
+        }
     }
 }
