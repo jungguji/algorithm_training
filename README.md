@@ -34,6 +34,7 @@
 |[괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/괄호_변환.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/괄호_변환Test.java)|[블로그](https://jungguji.github.io/2020/06/16/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B4%84%ED%98%B8-%EB%B3%80%ED%99%98/)
 |[소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/소수_만들기.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/소수_만들기Test.java)|[블로그](https://jungguji.github.io/2020/06/17/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%86%8C%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
 |[최댓값 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/최댓값_최솟값.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/최댓값_최솟값Test.java)|[블로그]()
+|[짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12939)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/짝지어_제거하기.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/짝지어_제거하기Test.java)|[블로그]()
 
 * * *
 
