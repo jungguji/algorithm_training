@@ -36,6 +36,9 @@
 |[최댓값 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/최댓값_최솟값.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/최댓값_최솟값Test.java)|[]()
 |[짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12939)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/짝지어_제거하기.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/짝지어_제거하기Test.java)|[]()
 |[더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)|[JAVA](/src/main/java/algorithm/programmers/level2/hash/더_맵게.java.java)|[TEST](/src/main/java/algorithm/programmers/level2/hash/더_맵게Test.java)|[]()
+|[가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/가장_큰_정사각형_찾기.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/가장_큰_정사각형_찾기Test.java)|[]()
+|[올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909)|[JAVA](/src/main/java/algorithm/programmers/level2/practice/올바른_괄호.java)|[TEST](/src/main/java/algorithm/programmers/level2/practice/올바른_괄호Test.java)|[]()
+|[숫자야구](https://programmers.co.kr/learn/courses/30/lessons/42841)|[JAVA](/src/main/java/algorithm/programmers/level2/bruteforce/숫자야구.java)|[TEST](/src/main/java/algorithm/programmers/level2/bruteforce/숫자야구Test.java)|[]()
 
 * * *
 
