@@ -43,6 +43,7 @@
 |[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)|[JAVA](/src/main/java/algorithm/programmers/level2/bruteforce/카펫.java)|[TEST](/src/main/java/algorithm/programmers/level2/bruteforce/카펫Test.java)|[]()
 |[후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)|[JAVA](src/main/java/algorithm/programmers/level2/practice/후보키.java)|[TEST](src/main/java/algorithm/programmers/level2/practice/후보키Test.java)|[블로그](https://jungguji.github.io/2020/06/26/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%9B%84%EB%B3%B4%ED%82%A4/)
 |[피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945)|[JAVA](src/main/java/algorithm/programmers/level2/practice/피보나치_수.java)|[TEST](src/main/java/algorithm/programmers/level2/practice/피보나치_수Test.java)|[블로그](https://jungguji.github.io/2020/06/27/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EC%88%98/)
+|[숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924)|[JAVA](src/main/java/algorithm/programmers/level2/practice/숫자의_표현.java)|[TEST](src/main/java/algorithm/programmers/level2/practice/숫자의_표현Test.java)|[블로그](https://jungguji.github.io/2020/06/28/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%88%AB%EC%9E%90%EC%9D%98-%ED%91%9C%ED%98%84/)
 
 * * *
 
