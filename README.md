@@ -46,6 +46,7 @@
 |[숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924)|[JAVA](src/main/java/algorithm/programmers/level2/practice/숫자의_표현.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/숫자의_표현Test.java)|[블로그](https://jungguji.github.io/2020/06/28/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%88%AB%EC%9E%90%EC%9D%98-%ED%91%9C%ED%98%84/)
 |[최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941)|[JAVA](src/main/java/algorithm/programmers/level2/practice/최솟값_만들기.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/최솟값_만들기Test.java)|[]()
 |[튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)|[JAVA](src/main/java/algorithm/programmers/level2/practice/튜플.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/튜플Test.java)|[블로그](https://jungguji.github.io/2020/06/29/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%8A%9C%ED%94%8C/)
+|[뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)|[JAVA](src/main/java/algorithm/programmers/level2/practice/뉴스_클러스터링.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/뉴스_클러스터링Test.java)|[]()
 
 * * *
 
