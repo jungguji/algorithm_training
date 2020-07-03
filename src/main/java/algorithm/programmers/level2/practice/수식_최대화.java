@@ -3,44 +3,33 @@ package algorithm.programmers.level2.practice;
 import java.util.*;
 
 public class 수식_최대화 {
-    public long solution(String expression) {
-        char[] tochar = expression.toCharArray();
+    private static final char PLUS = '+';
+    private static final char MINUS = '-';
+    private static final char MULTIPLICATION = '*';
 
-        Object[] numberAndOperator = getNumbersAndOperators(tochar);
+    public long solution(String expression) {
+        char[] chars = expression.toCharArray();
+
+        Object[] numberAndOperator = getNumbersAndOperatorSet(chars);
         List<Long> numberList = (List<Long>) numberAndOperator[0];
         List<Character> operatorList = (List<Character>) numberAndOperator[1];
 
-        Set<Character> set = new HashSet<>();
-        List<Character> ttt = new ArrayList<>();
+        char[] operators = getExpressionIncludeOperators(operatorList);
+        List<String> operatorSetList = getOperatorSetList(operators);
 
-        for (char c : operatorList) {
-            if (set.add(c)) {
-                ttt.add(c);
-            }
-        }
-
-        char[] operators = new char[ttt.size()];
-        int i = 0;
-        for (char c : ttt) {
-            operators[i++] = c;
-        }
-
-        List<String> operatorSetList = getOperatorList(operators);
-
-        long answer = getMax(numberList, operatorList, operatorSetList);
-        return answer;
+        return getMax(numberList, operatorList, operatorSetList);
     }
 
-    private Object[] getNumbersAndOperators(char[] expression) {
+    private Object[] getNumbersAndOperatorSet(char[] expression) {
         List<Long> numberList = new ArrayList<>();
         List<Character> operatorList = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
 
+        StringBuilder sb = new StringBuilder();
         for (char c : expression) {
             switch (c) {
-                case '*':
-                case '+':
-                case '-':
+                case PLUS:
+                case MINUS:
+                case MULTIPLICATION:
                     numberList.add(Long.valueOf(sb.toString()));
                     operatorList.add(c);
 
@@ -57,8 +46,27 @@ public class 수식_최대화 {
         return new Object[] {numberList, operatorList};
     }
 
+    private char[] getExpressionIncludeOperators(List<Character> operatorList) {
+        Set<Character> set = new HashSet<>();
+        List<Character> list = new ArrayList<>();
 
-    private List<String> getOperatorList(char[] chars) {
+        for (char c : operatorList) {
+            if (set.add(c)) {
+                list.add(c);
+            }
+        }
+
+        char[] operators = new char[list.size()];
+        int i = 0;
+        for (char c : list) {
+            operators[i++] = c;
+        }
+
+        return operators;
+    }
+
+
+    private List<String> getOperatorSetList(char[] chars) {
         List<String> operatorSetList = new ArrayList<>();
         Set<String> set = new HashSet<>();
 
@@ -97,82 +105,80 @@ public class 수식_최대화 {
         arrary[j] = temp;
     }
 
-    // list 말고 큐로 만들어서
-    // 큐에서 앞에거 빼고 뒤로 다시 넣고
-    // 숫자랑 둘다
-    // 오퍼레이션 같아서 스택에서 팝 할 때
-    // 더한거 스택에넣고 큐 뒤에도 넣어
-    // 한번 다 돌면 그 머냐 스택 비워
     private Long getMax(List<Long> numberList, List<Character> operatorList, List<String> operatorSetList) {
         long max = 0;
 
         for (String operatorSet : operatorSetList) {
             char[] operators = operatorSet.toCharArray();
 
-            LinkedList<Long> numberQueue = new LinkedList<>();
-            numberQueue.addAll(numberList);
+            LinkedList<Long> numberQueue = new LinkedList<>(numberList);
+            LinkedList<Character> operatorQueue = new LinkedList<>(operatorList);
 
-            LinkedList<Character> operatorQueue = new LinkedList<>();
-            operatorQueue.addAll(operatorList);
-
-            for (char operator : operators) {
-                Stack<Long> number = new Stack<>();
-                Stack<Character> oper = new Stack<>();
+            for (char operatorToCalculate : operators) {
+                Stack<Long> numberStack = new Stack<>();
+                Stack<Character> operatorStack = new Stack<>();
 
                 long first = numberQueue.poll();
-                number.push(first);
+                numberStack.push(first);
                 numberQueue.offer(first);
 
-                // 100-200*300-500+20
-                for (int i = 0; i < operatorQueue.size(); i++) {
-                    long currentNumber = numberQueue.poll();
-                    number.push(currentNumber);
+                Stack[] stacks = new Stack[] {numberStack, operatorStack};
+                LinkedList[] queues = new LinkedList[] {numberQueue, operatorQueue};
 
-                    Character currentOperator = operatorQueue.poll();
-                    oper.push(currentOperator);
-
-                    if (oper.peek() == operator) {
-                        long n1 = number.pop();
-                        long n2 = number.pop();
-                        char op = oper.pop();
-
-                        long sum = sum(n2, n1, op);
-                        number.push(sum);
-
-                        numberQueue.pollLast();
-                        numberQueue.offer(sum);
-                        i = -1;
-                    } else {
-                        numberQueue.offer(currentNumber);
-                        operatorQueue.offer(currentOperator);
-                    }
-                }
+                calculatePriority(stacks, queues, operatorToCalculate);
             }
 
-            max = max > Math.abs(numberQueue.peek()) ? max : Math.abs(numberQueue.poll());
-
+            max = (max > Math.abs(numberQueue.peek())) ? max : Math.abs(numberQueue.poll());
         }
 
         return max;
     }
 
+    private void calculatePriority(Stack[] staks, LinkedList[] queues, char operatorToCalculate) {
+        Stack<Long> numberStack = staks[0];
+        Stack<Character> operatorStack = staks[1];
+
+        LinkedList<Long> numberQueue = queues[0];
+        LinkedList<Character> operatorQueue = queues[1];
+
+        int limit = operatorQueue.size();
+        for (int i = 0; i < limit; i++) {
+            long currentNumber = numberQueue.poll();
+            numberStack.push(currentNumber);
+
+            Character currentOperator = operatorQueue.poll();
+            operatorStack.push(currentOperator);
+
+            if (operatorStack.peek() == operatorToCalculate) {
+                long n1 = numberStack.pop();
+                long n2 = numberStack.pop();
+                char op = operatorStack.pop();
+
+                long sum = sum(n2, n1, op);
+                numberStack.push(sum);
+
+                numberQueue.pollLast();
+                numberQueue.offer(sum);
+            } else {
+                numberQueue.offer(currentNumber);
+                operatorQueue.offer(currentOperator);
+            }
+        }
+    }
+
     private Long sum(long n2, long n1, char op) {
         long sum = 0;
+
         switch (op) {
-            case '*' : {
+            case '*' :
                 sum = n2 * n1;
                 break;
-            }
-
-            case '+' : {
+            case '+' :
                 sum = n2 + n1;
                 break;
-            }
-
-            case '-' : {
+            case '-' :
                 sum = n2 - n1;
                 break;
-            }
         }
 
         return sum;
