@@ -1,9 +1,7 @@
 package algorithm.programmers.level2.practice;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class 후보키Test {
@@ -43,10 +41,4 @@ class 후보키Test {
 
         assertEquals(3, test.solution(args2));
     }
-
-    @Test
-    void getColumnIndex() {
-        assertArrayEquals(new int[]{1,2,3,6}, test.test(78, 8));
-    }
-
 }
