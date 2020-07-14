@@ -1,9 +1,9 @@
 package algorithm.programmers.level1.bruteforce;
 
-import static org.junit.Assert.assertArrayEquals;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class 모의고사TEST {
     
