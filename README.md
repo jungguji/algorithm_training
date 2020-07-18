@@ -54,7 +54,8 @@
 |[행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949)|[JAVA](src/main/java/algorithm/programmers/level2/practice/행렬의_곱셈.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/행렬의_곱셈Test.java)|[블로그](https://jungguji.github.io/2020/07/08/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88/)
 |[폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)|[JAVA](src/main/java/algorithm/programmers/level2/practice/폰켓몬.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/폰켓몬Test.java)|[]()
 |[N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953)|[JAVA](src/main/java/algorithm/programmers/level2/practice/N개의_최소공배수.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/N개의_최소공배수Test.java)|[]()
-|[JadenCase 문자열 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/12951)|[JAVA](src/main/java/algorithm/programmers/level2/practice/JadenCase.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/JadenCaseTest.java)|[]()
+|[JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951)|[JAVA](src/main/java/algorithm/programmers/level2/practice/JadenCase.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/JadenCaseTest.java)|[]()
+|[오픈 채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[JAVA](src/main/java/algorithm/programmers/level2/practice/오픈채팅방.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/오픈채팅방Test.java)|[]()
 
 
 * * *
