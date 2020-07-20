@@ -5,7 +5,7 @@ public class 카펫 {
         int sum = brown + yellow;
         int[] answer = new int[2];
 
-        for (int i = 2; i < brown + yellow; i++) {
+        for (int i = 2; i < sum; i++) {
             if (sum % i == 0) {
                 int x = ((sum / i) * 2) + ((i * 2) - 4);
                 int y = sum - x;
