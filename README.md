@@ -56,6 +56,7 @@
 |[N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953)|[JAVA](src/main/java/algorithm/programmers/level2/practice/N개의_최소공배수.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/N개의_최소공배수Test.java)|[]()
 |[JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951)|[JAVA](src/main/java/algorithm/programmers/level2/practice/JadenCase.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/JadenCaseTest.java)|[]()
 |[오픈 채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[JAVA](src/main/java/algorithm/programmers/level2/practice/오픈채팅방.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/오픈채팅방Test.java)|[]()
+|[캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)|[JAVA](src/main/java/algorithm/programmers/level2/practice/캐시.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/캐시Test.java)|[]()
 
 
 * * *
