@@ -59,6 +59,7 @@
 |[캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)|[JAVA](src/main/java/algorithm/programmers/level2/practice/캐시.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/캐시Test.java)|[블로그](https://jungguji.github.io/2020/07/24/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BA%90%EC%8B%9C/)
 |[점프와_순간_이동](https://programmers.co.kr/learn/courses/30/lessons/12980)|[JAVA](src/main/java/algorithm/programmers/level2/practice/점프와_순간_이동.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/점프와_순간_이동Test.java)|[]()
 |[예상 대진표]()|[JAVA](src/main/java/algorithm/programmers/level2/practice/예상_대진표.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/예상_대진표Test.java)|[]()
+|[n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[JAVA](src/main/java/algorithm/programmers/level2/practice/n진수_게임.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/n진수_게임Test.java)|[블로그](https://jungguji.github.io/2020/08/03/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-n%EC%A7%84%EC%88%98-%EA%B2%8C%EC%9E%84/)
 
 
 * * *
