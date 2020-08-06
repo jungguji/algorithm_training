@@ -72,6 +72,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[고양이](https://www.acmicpc.net/problem/10171)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/고양이.java)|[]()|[]()
+|[곱셈](https://www.acmicpc.net/problem/2588)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/곱셈.java)|[]()|[]()
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
