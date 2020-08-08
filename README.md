@@ -73,7 +73,8 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[고양이](https://www.acmicpc.net/problem/10171)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/고양이.java)|[]()|[]()
 |[곱셈](https://www.acmicpc.net/problem/2588)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/곱셈.java)|[]()|[]()
-|[곱셈](https://www.acmicpc.net/problem/1330)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/두_수_비교하기.java)|[]()|[]()
+|[두 수 비교하기](https://www.acmicpc.net/problem/1330)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/두_수_비교하기.java)|[]()|[]()
+|[검증수](https://www.acmicpc.net/problem/2475)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/검증수.java)|[]()|[]()
 
 ## 문자열
 
