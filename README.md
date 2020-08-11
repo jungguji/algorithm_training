@@ -77,6 +77,7 @@
 |[검증수](https://www.acmicpc.net/problem/2475)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/검증수.java)|[]()|[]()
 |[최댓값](https://www.acmicpc.net/problem/2562)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/최댓값.java)|[]()|[]()
 |[윤년](https://www.acmicpc.net/problem/2753)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/윤년.java)|[]()|[]()
+|[아스키 코드](https://www.acmicpc.net/problem/11654)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/아스키_코드.java)|[]()|[]()
 
 ## 문자열
 
