@@ -78,6 +78,7 @@
 |[최댓값](https://www.acmicpc.net/problem/2562)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/최댓값.java)|[]()|[]()
 |[윤년](https://www.acmicpc.net/problem/2753)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/윤년.java)|[]()|[]()
 |[아스키 코드](https://www.acmicpc.net/problem/11654)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/아스키_코드.java)|[]()|[]()
+|[알람 시계](https://www.acmicpc.net/problem/2884)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/알람_시계.java)|[]()|[]()
 
 ## 문자열
 
