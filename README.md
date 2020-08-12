@@ -87,6 +87,7 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[A+B - 3](https://www.acmicpc.net/problem/10950)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B3.java)|[]()|[]()
 |[A+B - 4](https://www.acmicpc.net/problem/10951)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B4.java)|[]()|[]()
+|[A+B - 5](https://www.acmicpc.net/problem/10952)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B5.java)|[]()|[]()
 
 ## 문자열
 
