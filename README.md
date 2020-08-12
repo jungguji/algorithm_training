@@ -86,6 +86,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[A+B - 3](https://www.acmicpc.net/problem/10950)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B3.java)|[]()|[]()
+|[A+B - 4](https://www.acmicpc.net/problem/10951)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B4.java)|[]()|[]()
 
 ## 문자열
 
