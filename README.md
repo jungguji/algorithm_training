@@ -96,6 +96,7 @@
 |[단어의 개수](https://www.acmicpc.net/problem/1152)|[JAVA](/src/main/java/algorithm/baekjoon/string/단어의_개수.java)|[TEST](/src/test/java/algorithm/baekjoon/string/단어의_개수TEST.java)|[블로그](https://jungguji.github.io/2020/05/23/%EB%B0%B1%EC%A4%80-%EB%8B%A8%EC%96%B4%EC%9D%98-%EA%B0%9C%EC%88%98/)
 |[단어공부](https://www.acmicpc.net/problem/1157)|[JAVA](/src/main/java/algorithm/baekjoon/string/단어공부.java)|[TEST](/src/test/java/algorithm/baekjoon/string/단어의_개수TEST.java)|[]()
 |[문자열_반복](https://www.acmicpc.net/problem/2675)|[JAVA](/src/main/java/algorithm/baekjoon/string/문자열_반복.java)|[]()|[]()
+|[상수](https://www.acmicpc.net/problem/2908)|[JAVA](/src/main/java/algorithm/baekjoon/string/상수.java)|[]()|[]()
 
 
 ### 그리디
