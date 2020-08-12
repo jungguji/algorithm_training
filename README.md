@@ -81,6 +81,12 @@
 |[알람 시계](https://www.acmicpc.net/problem/2884)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/알람_시계.java)|[]()|[]()
 |[최소, 최대](https://www.acmicpc.net/problem/10818)|[JAVA](/src/main/java/algorithm/baekjoon/inoutput/최소_최대.java)|[]()|[]()
 
+## 사칙 연산
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[A+B - 3](https://www.acmicpc.net/problem/10950)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B3.java)|[]()|[]()
+
 ## 문자열
 
 | 문제 | 코드 | 테스트 | 풀이 |
