@@ -89,11 +89,11 @@
 |[A+B - 4](https://www.acmicpc.net/problem/10951)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B4.java)|[]()|[]()
 |[A+B - 5](https://www.acmicpc.net/problem/10952)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B5.java)|[]()|[]()
 
-## 문자열
+## 배열
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[A+B - 3](https://www.acmicpc.net/problem/3052)|[JAVA](src/main/java/algorithm/baekjoon/array/나머지.java)|[]()|[]()
+|[나머지](https://www.acmicpc.net/problem/3052)|[JAVA](src/main/java/algorithm/baekjoon/array/나머지.java)|[]()|[]()
 
 ## 문자열
 
@@ -103,6 +103,7 @@
 |[단어공부](https://www.acmicpc.net/problem/1157)|[JAVA](/src/main/java/algorithm/baekjoon/string/단어공부.java)|[TEST](/src/test/java/algorithm/baekjoon/string/단어의_개수TEST.java)|[]()
 |[문자열_반복](https://www.acmicpc.net/problem/2675)|[JAVA](/src/main/java/algorithm/baekjoon/string/문자열_반복.java)|[]()|[]()
 |[상수](https://www.acmicpc.net/problem/2908)|[JAVA](/src/main/java/algorithm/baekjoon/string/상수.java)|[]()|[]()
+|[OX퀴즈](https://www.acmicpc.net/problem/8958)|[JAVA](/src/main/java/algorithm/baekjoon/string/OX퀴즈.java)|[]()|[]()
 
 
 ### 그리디
