@@ -114,6 +114,12 @@
 |[직각삼각형](https://www.acmicpc.net/problem/4153)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/직각삼각형.java)|[]()|[]()
 |[ACM 호텔](https://www.acmicpc.net/problem/10250)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/ACM호텔.java)|[]()|[]()
 
+## Brute-force
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[분해합](https://www.acmicpc.net/problem/2231)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/분해합.java)|[]()|[]()
+
 ### 그리디
 
 | 문제 | 코드 | 테스트 | 풀이 |
