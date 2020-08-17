@@ -146,4 +146,5 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
+|[벌집](https://www.acmicpc.net/problem/9076)|[JAVA](src/main/java/algorithm/baekjoon/class1/inoutput/점수_집계.java)|[]()|[]()
 |[벌집](https://www.acmicpc.net/problem/2292)|[JAVA](src/main/java/algorithm/baekjoon/class2/practice/벌집.java)|[]()|[]()
