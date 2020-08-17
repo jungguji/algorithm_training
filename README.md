@@ -139,4 +139,11 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[미로 탐색](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()
+|[미로 탐색](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()### Heap
+
+
+### 미분류
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[벌집](https://www.acmicpc.net/problem/2292)|[JAVA](src/main/java/algorithm/baekjoon/class2/practice/벌집.java)|[]()|[]()
