@@ -114,6 +114,7 @@
 |[직사각형에서 탈출](https://www.acmicpc.net/problem/10809)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/직사각형에서_탈출.java)|[]()|[]()
 |[직각삼각형](https://www.acmicpc.net/problem/4153)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/직각삼각형.java)|[]()|[]()
 |[ACM 호텔](https://www.acmicpc.net/problem/10250)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/ACM호텔.java)|[]()|[]()
+|[달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/달팽이는_올라가고_싶다.java)|[Test](src/test/java/algorithm/baekjoon/class2/math/달팽이는_올라가고_싶다Test.java)|[]()
 
 ## Brute-force
 
