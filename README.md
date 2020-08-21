@@ -156,3 +156,4 @@
 |[점수_집계](https://www.acmicpc.net/problem/9076)|[JAVA](src/main/java/algorithm/baekjoon/class1/inoutput/점수_집계.java)|[]()|[]()
 |[벌집](https://www.acmicpc.net/problem/2292)|[JAVA](src/main/java/algorithm/baekjoon/class2/practice/벌집.java)|[]()|[]()
 |[부녀회장이 될테야](https://www.acmicpc.net/problem/2775)|[JAVA](src/main/java/algorithm/baekjoon/class2/practice/부녀회장이_퇼테야.java)|[]()|[]()
+|[맞았는데 왜 틀리죠?](https://www.acmicpc.net/problem/15820)|[JAVA](src/main/java/algorithm/baekjoon/practice/왜맞틀.java)|[]()|[]()
