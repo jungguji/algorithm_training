@@ -143,6 +143,11 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[미로 탐색](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()### Heap
 
+### Hash
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
 
 ### 미분류
 
