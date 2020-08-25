@@ -153,6 +153,12 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
 
+### Hash
+
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[단어 정렬](https://www.acmicpc.net/problem/1181)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/단어_정렬.java)|[]()|[]()
+
 ### 미분류
 
 | 문제 | 코드 | 테스트 | 풀이 |
