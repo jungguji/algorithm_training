@@ -118,6 +118,7 @@
 |[ACM 호텔](https://www.acmicpc.net/problem/10250)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/ACM호텔.java)|[]()|[]()
 |[달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/달팽이는_올라가고_싶다.java)|[Test](src/test/java/algorithm/baekjoon/class2/math/달팽이는_올라가고_싶다Test.java)|[]()
 |[이항 계수 1](https://www.acmicpc.net/problem/11050)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/이항_계수1.java)|[]()|[]()
+|[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수Test.java)|[]()
 
 ## Brute-force
 
@@ -154,11 +155,12 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
 
-### Hash
+### 정렬
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[단어 정렬](https://www.acmicpc.net/problem/1181)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/단어_정렬.java)|[]()|[]()
+|[수 정렬하기 2](https://www.acmicpc.net/problem/2751)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/수_정렬하기2.java)|[]()|[]()
 
 ### 미분류
 
