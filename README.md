@@ -164,6 +164,7 @@
 |[수 정렬하기 2](https://www.acmicpc.net/problem/2751)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/수_정렬하기2.java)|[]()|[]()
 |[나이순 정렬](https://www.acmicpc.net/problem/10814)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/나이순_정렬.java)|[]()|[]()
 |[좌표 정렬하기](https://www.acmicpc.net/problem/11650)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/좌표_정렬하기.java)|[]()|[]()
+|[좌표 정렬하기2](https://www.acmicpc.net/problem/11651)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/좌표_정렬하기2.java)|[]()|[]()
 
 ### 미분류
 
