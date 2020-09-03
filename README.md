@@ -177,6 +177,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[카드2](https://www.acmicpc.net/problem/2164)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/카드2.java)|[]()|[]()
+|[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/균형잡힌_세상.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/균형잡힌_세상Test.java)|[]()
 
 
 ### 미분류
