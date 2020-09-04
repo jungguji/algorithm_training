@@ -172,6 +172,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[수 찾기](https://www.acmicpc.net/problem/1920)|[JAVA](src/main/java/algorithm/baekjoon/class2/search/수찾기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/search/수찾기Test.java)|[]()
+|[숫자 카드 2](https://www.acmicpc.net/problem/10816)|[JAVA](src/main/java/algorithm/baekjoon/class2/search/숫자_카드2.java)|[TEST](src/test/java/algorithm/baekjoon/class2/search/숫자_카드2Test.java)|[]()
 
 ### 스택 / 큐
 | 문제 | 코드 | 테스트 | 풀이 |
