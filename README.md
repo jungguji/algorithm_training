@@ -183,6 +183,7 @@
 |[제로](https://www.acmicpc.net/problem/10773)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/제로.java)|[]()|[]()
 |[스택](https://www.acmicpc.net/problem/10828)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/스택.java)|[]()|[]()
 |[큐](https://www.acmicpc.net/problem/10845)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/큐.java)|[]()|[]()
+|[덱](https://www.acmicpc.net/problem/10866)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/덱.java)|[]()|[]()
 
 
 ### 미분류
