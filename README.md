@@ -180,7 +180,8 @@
 |[카드2](https://www.acmicpc.net/problem/2164)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/카드2.java)|[]()|[]()
 |[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/균형잡힌_세상.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/균형잡힌_세상Test.java)|[]()
 |[괄호](https://www.acmicpc.net/problem/9012)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/괄호.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/괄호Test.java)|[]()
-|[괄호](https://www.acmicpc.net/problem/10773)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/제로.java)|[]()|[]()
+|[제로](https://www.acmicpc.net/problem/10773)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/제로.java)|[]()|[]()
+|[스택](https://www.acmicpc.net/problem/10828)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/스택.java)|[]()|[]()
 
 
 ### 미분류
