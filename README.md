@@ -161,12 +161,14 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
+|[수 정렬하기](https://www.acmicpc.net/problem/2750)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/단어_정렬.java)|[]()|[]()
 |[단어 정렬](https://www.acmicpc.net/problem/1181)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/단어_정렬.java)|[]()|[]()
 |[수 정렬하기 2](https://www.acmicpc.net/problem/2751)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/수_정렬하기2.java)|[]()|[]()
 |[나이순 정렬](https://www.acmicpc.net/problem/10814)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/나이순_정렬.java)|[]()|[]()
 |[좌표 정렬하기](https://www.acmicpc.net/problem/11650)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/좌표_정렬하기.java)|[]()|[]()
 |[좌표 정렬하기2](https://www.acmicpc.net/problem/11651)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/좌표_정렬하기2.java)|[]()|[]()
 |[통계학](https://www.acmicpc.net/problem/2108)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/통계학.java)|[]()|[]()
+|[수 정렬하기 3](https://www.acmicpc.net/problem/10989)|[JAVA](src/main/java/algorithm/baekjoon/class2/sort/수_정렬하기3.java)|[]()|[]()
 
 ### 이진 탐색
 | 문제 | 코드 | 테스트 | 풀이 |
