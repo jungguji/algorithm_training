@@ -189,6 +189,7 @@
 |[덱](https://www.acmicpc.net/problem/10866)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/덱.java)|[]()|[]()
 |[요세푸스 문제 0](https://www.acmicpc.net/problem/11866)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/요세푸스_문제0.java)|[]()|[]()
 |[스택 수열](https://www.acmicpc.net/problem/1874)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/스택_수열.java)|[]()|[]()
+|[프린터 큐](https://www.acmicpc.net/problem/1966)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/프린터_큐.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/프린터_큐Test.java)|[]()
 
 
 ### 미분류

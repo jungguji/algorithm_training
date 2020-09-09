@@ -37,30 +37,23 @@ public class 프린터_큐 {
 
         int count = 0;
         while (!printer.isEmpty()) {
-            Integer[] print = printer.poll();
-            int sizeAfterPop = printer.size();
-            int sizeAfterOffer = printer.size();
-
-            --m;
-            ++count;
-
-            for (int i = 0; i < printer.size(); i++) {
-                if (printer.get(i)[1] > print[1]) {
-                    printer.offer(print);
-                    sizeAfterOffer = printer.size();
-
-                    --count;
-                    ++m;
+            for (int i = 1; i < printer.size(); i++) {
+                if (printer.get(i)[1] > printer.peek()[1]) {
+                    printer.offer(printer.poll());
 
                     m = (m == 0) ? printer.size() - 1 : --m;
-                    break;
+
+                    i = 0;
                 }
             }
 
-
-            if (m == 0 && sizeAfterPop == sizeAfterOffer) {
+            ++count;
+            if (m == 0) {
                 break;
             }
+
+            --m;
+            printer.poll();
         }
 
         return count;
