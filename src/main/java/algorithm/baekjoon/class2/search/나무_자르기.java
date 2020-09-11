@@ -8,23 +8,20 @@ import java.util.Arrays;
 public class 나무_자르기 {
     public static void main(String[] args) throws IOException {
         try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            int[] nm = convertStringArrayToIntegerArray(br.readLine().split(" "));
+            long[] nm = convertStringArrayToLongArray(br.readLine().split(" "));
 
-            int n = nm[0];
-            int m = nm[1];
+            long m = nm[1];
 
-            int[] trees = convertStringArrayToIntegerArray(br.readLine().split(" "));
+            long[] trees = convertStringArrayToLongArray(br.readLine().split(" "));
 
-            Arrays.sort(trees);
+            long answer = solution(trees, m);
 
-            int answer = cutHeight(trees,0 , trees.length, m);
-
-            System.out.println(answer);;
+            System.out.println(answer);
         }
     }
 
-    private static int[] convertStringArrayToIntegerArray(String[] args) {
-        int[] array = new int[args.length];
+    private static long[] convertStringArrayToLongArray(String[] args) {
+        long[] array = new long[args.length];
         int i = 0;
         for (String str : args) {
             array[i++] = Integer.parseInt(str);
@@ -33,28 +30,35 @@ public class 나무_자르기 {
         return array;
     }
 
-    private static int cutHeight(int[] array, int fromIndex, int toIndex, int m) {
-        int low = fromIndex;
-        int high = toIndex - 1;
+    public static long solution(long[] trees, long m) {
+        Arrays.sort(trees);
 
-        int mid = 0;
+        long low = 0;
+        long high = trees[trees.length - 1];
+
+        long answer = 0;
+
         while (low <= high) {
-            mid = (low + high) >>> 1;
-
-            int sum = 0;
-            for (int i = mid; i <= high; i++) {
-                sum += (array[i] - array[mid]);
-            }
+            long mid = (low + high) >>> 1;
+            long sum = getTrees(trees, mid);
 
             if (sum < m) {
-                low = mid + 1;
-            } else if (sum > m) {
                 high = mid - 1;
             } else {
-                break;
+                answer = Math.max(answer, mid);
+                low = mid + 1;
             }
         }
 
-        return array[mid];
+        return answer;
+    }
+
+    private static long getTrees(long[] trees, long mid) {
+        long sum = 0;
+        for (int i = 0; i < trees.length; i++) {
+            sum += trees[i] > mid ? trees[i] - mid : 0;
+        }
+
+        return sum;
     }
 }
