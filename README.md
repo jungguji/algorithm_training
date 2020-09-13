@@ -120,6 +120,7 @@
 |[이항 계수 1](https://www.acmicpc.net/problem/11050)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/이항_계수1.java)|[]()|[]()
 |[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수Test.java)|[]()
 |[소수 찾기](https://www.acmicpc.net/problem/1978)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_찾기.java)|[]()|[]()
+|[소구 구하기](https://www.acmicpc.net/problem/1929)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_구하기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/소수_구하기Test.java)|[]()
 
 ## Brute-force
 
