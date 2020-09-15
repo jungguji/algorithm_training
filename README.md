@@ -126,11 +126,12 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
+|[일곱 난쟁이](https://www.acmicpc.net/problem/2309)|[JAVA](src/main/java/algorithm/baekjoon/bronze/bruteforce/일곱_난쟁이.java)|[]()|[]()
 |[분해합](https://www.acmicpc.net/problem/2231)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/분해합.java)|[]()|[]()
 |[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/체스판_다시_칠하기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/bruteforce/체스판_다시_칠하기Test.java)|[]()
 |[영화감독 숌](https://www.acmicpc.net/problem/1436)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/영화감독_숌.java)|[TEST](src/test/java/algorithm/baekjoon/class2/bruteforce/영화감독_숌Test.java)|[]()
 |[덩치](https://www.acmicpc.net/problem/7568)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/덩치.java)|[]()|[]()
-|[덩치](https://www.acmicpc.net/problem/18111)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/마인크래프트.java)|[]()|[]()
+|[마인크래프트](https://www.acmicpc.net/problem/18111)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/마인크래프트.java)|[]()|[]()
 
 ### 그리디
 
