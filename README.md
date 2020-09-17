@@ -133,6 +133,7 @@
 |[영화감독 숌](https://www.acmicpc.net/problem/1436)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/영화감독_숌.java)|[TEST](src/test/java/algorithm/baekjoon/class2/bruteforce/영화감독_숌Test.java)|[]()
 |[덩치](https://www.acmicpc.net/problem/7568)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/덩치.java)|[]()|[]()
 |[마인크래프트](https://www.acmicpc.net/problem/18111)|[JAVA](src/main/java/algorithm/baekjoon/class2/bruteforce/마인크래프트.java)|[]()|[]()
+|[색종이](https://www.acmicpc.net/problem/2563)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/silver/색종이.java)|[]()|[]()
 
 ### 그리디
 
