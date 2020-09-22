@@ -91,6 +91,7 @@
 |[A+B - 7](https://www.acmicpc.net/problem/11021)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B7.java)|[]()|[]()
 |[A+B - 7](https://www.acmicpc.net/problem/11022)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/A_B8.java)|[]()|[]()
 |[엄청난 부자 2](https://www.acmicpc.net/problem/1271)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/엄청난부자2.java)|[]()|[]()
+|[정수 N개의 합](https://www.acmicpc.net/problem/15596)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/정수_N개의_합.java)|[]()|[]()
 
 ## 배열
 
