@@ -201,6 +201,10 @@
 |[스택 수열](https://www.acmicpc.net/problem/1874)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/스택_수열.java)|[]()|[]()
 |[프린터 큐](https://www.acmicpc.net/problem/1966)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/프린터_큐.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/프린터_큐Test.java)|[]()
 
+### 구현
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/별찍기9.java)|[]()|[]()
 
 ### 미분류
 
