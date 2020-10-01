@@ -123,6 +123,7 @@
 |[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/최대공약수와_최소공배수Test.java)|[]()
 |[소수 찾기](https://www.acmicpc.net/problem/1978)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_찾기.java)|[]()|[]()
 |[소구 구하기](https://www.acmicpc.net/problem/1929)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_구하기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/소수_구하기Test.java)|[]()
+|[팩토리얼](https://www.acmicpc.net/problem/10872)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/팩토리얼.java)|[]()|[]()
 
 ## Brute-force
 
