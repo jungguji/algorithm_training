@@ -141,6 +141,7 @@
 |[Doubles](https://www.acmicpc.net/problem/4641)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/bronze/Doubles.java)|[]()|[]()
 |[거꾸로 구구단](https://www.acmicpc.net/problem/13410)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/bronze/거꾸로_구구단.java)|[]()|[]()
 |[찍기](https://www.acmicpc.net/problem/2966)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/bronze/찍기.java)|[]()|[]()
+|[문서 검색](https://www.acmicpc.net/problem/1543)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/silver/문서검색.java)|[TEST](src/test/java/algorithm/baekjoon/bruteforce/silver/문서검색Test.java)|[]()
 
 ### 그리디
 
