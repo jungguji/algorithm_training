@@ -143,6 +143,7 @@
 |[찍기](https://www.acmicpc.net/problem/2966)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/bronze/찍기.java)|[]()|[]()
 |[문서 검색](https://www.acmicpc.net/problem/1543)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/silver/문서검색.java)|[TEST](src/test/java/algorithm/baekjoon/bruteforce/silver/문서검색Test.java)|[]()
 |[0의 개수](https://www.acmicpc.net/problem/11170)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/silver/영의개수.java)|[]()|[]()
+|[완전 세제곱](https://www.acmicpc.net/problem/4690)|[JAVA](src/main/java/algorithm/baekjoon/bruteforce/bronze/완전_세제곱.java)|[]()|[]()
 
 ### 그리디
 
