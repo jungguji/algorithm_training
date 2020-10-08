@@ -29,6 +29,8 @@ class 프렌즈4블록Test {
         assertEquals(8, test.solution(4,4, new String[] {"ABCD", "BACE", "BCDD", "BCDD"}));
         assertEquals(27, test.solution(8,9, new String[] {"ABCDADFDA", "ABDFQWERF", "WKDNFNRIT", "AKAKWODCJ", "AKAKWODCJ", "KKKKKKKKK", "KKKKKKKKK", "KKKKKKKKK"}));
         assertEquals(15, test.solution(4,5, new String[] {"AAAAA", "AAAAU", "AAAUU", "UUUUU"}));
+        assertEquals(24, test.solution(5,6, new String[] {"AAAAAA", "BBAATB", "BBAATB", "JJJTAA", "JJJTAA"}));
+        assertEquals(32, test.solution(6,6, new String[] {"AABBEE", "AAAEEE", "VAAEEV", "AABBEE", "AACCEE", "VVCCEE"}));
     }
 
     @Test

@@ -2,14 +2,13 @@ package algorithm.programmers.level2.practice;
 
 public class 프렌즈4블록 {
     private static final int ASCII = 32;
+    private static final char EMPTY = ' ';
     public int solution(int m, int n, String[] board) {
         int answer = 0;
         char[][] charBoard = convertStringArrayToCharArray(m, n, board);
 
-        boolean isEnd = false;
-        while (!isEnd) {
-            isEnd = true;
-            isEnd = box(charBoard);
+        while (true) {
+            boolean isEnd = box(charBoard);
 
             if (isEnd) {
                 break;
@@ -64,7 +63,7 @@ public class 프렌즈4블록 {
         }
         char position = toLowerCase(charBoard[i][j]);
 
-        if (position == ' ') {
+        if (position == EMPTY) {
             return false;
         }
 
@@ -92,7 +91,7 @@ public class 프렌즈4블록 {
 
         for (int i = 0; i < charBoard.length; i++) {
             for (int j = 0; j < charBoard[i].length; j++) {
-                if (charBoard[i][j] == ' ') {
+                if (charBoard[i][j] == EMPTY) {
                     continue;
                 }
 
@@ -100,8 +99,10 @@ public class 프렌즈4블록 {
                     if (i != 0) {
                         for (int k = i; k > 0; k--) {
                             charBoard[k][j] = charBoard[k-1][j];
-                            charBoard[k-1][j] = ' ';
+                            charBoard[k-1][j] = EMPTY;
                         }
+                    } else {
+                        charBoard[i][j] = EMPTY;
                     }
 
                     ++answer;
