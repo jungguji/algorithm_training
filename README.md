@@ -62,6 +62,7 @@
 |[n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[JAVA](src/main/java/algorithm/programmers/level2/practice/n진수_게임.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/n진수_게임Test.java)|[블로그](https://jungguji.github.io/2020/08/03/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-n%EC%A7%84%EC%88%98-%EA%B2%8C%EC%9E%84/)
 |[압축](https://programmers.co.kr/learn/courses/30/lessons/17684)|[JAVA](src/main/java/algorithm/programmers/level2/practice/압축.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/압축Test.java)|[블로그](https://jungguji.github.io/2020/08/06/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%95%95%EC%B6%95/)
 |[프렌즈 4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)|[JAVA](src/main/java/algorithm/programmers/level2/practice/프렌즈4블록.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/프렌즈4블록Test.java)|[블로그](https://jungguji.github.io/2020/10/08/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D/)
+|[방금 그 곡](https://programmers.co.kr/learn/courses/30/lessons/17683)|[JAVA](src/main/java/algorithm/programmers/level2/practice/방금그곡.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/방금그곡Test.java)|[]()
 
 
 * * *
@@ -154,6 +155,7 @@
 |[DNA](https://www.acmicpc.net/problem/1152)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/DNA.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/DNATest.java)|[]()
 |[로프](https://www.acmicpc.net/problem/2217)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/로프.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/로프Test.java)|[]()
 |[대회 OR 인턴](https://www.acmicpc.net/problem/2875)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/대회or인턴.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/대회or인턴Test.java)|[]()
+|[전자레인지](https://www.acmicpc.net/problem/10162)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/전자레인지.java)|[]()|[]()
 
 ### BFS
 
