@@ -19,6 +19,8 @@ class TwoXn_타일링Test {
         assertEquals(5, test.solution(4));
         assertEquals(3, test.solution(3));
         assertEquals(8, test.solution(5));
+        assertEquals(165580141, test.solution(40));
+        assertEquals(102334155, test.solution(39));
         assertEquals(316290802, test.solution(52));
     }
 }
