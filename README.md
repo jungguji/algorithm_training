@@ -161,6 +161,7 @@
 |[로프](https://www.acmicpc.net/problem/2217)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/로프.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/로프Test.java)|[]()
 |[대회 OR 인턴](https://www.acmicpc.net/problem/2875)|[JAVA](/src/main/java/algorithm/baekjoon/greedy/대회or인턴.java)|[TEST](/src/test/java/algorithm/baekjoon/greedy/대회or인턴Test.java)|[]()
 |[전자레인지](https://www.acmicpc.net/problem/10162)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/전자레인지.java)|[]()|[]()
+|[전자레인지](https://www.acmicpc.net/problem/14720)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/우유_축제.java)|[]()|[]()
 
 ### BFS
 
