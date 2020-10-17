@@ -163,6 +163,7 @@
 |[전자레인지](https://www.acmicpc.net/problem/10162)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/전자레인지.java)|[]()|[]()
 |[우유 축제](https://www.acmicpc.net/problem/14720)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/우유_축제.java)|[]()|[]()
 |[폴리오미노](https://www.acmicpc.net/problem/1343)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/폴리오미노.java)|[]()|[]()
+|[게임을 만든 동준이](https://www.acmicpc.net/problem/2847)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/게임을_만든_동준이.java)|[]()|[]()
 
 ### BFS
 
