@@ -20,9 +20,12 @@ public class 수_정렬하기2 {
 
             Collections.sort(list);
 
+            StringBuilder sb = new StringBuilder();
             for (int i : list) {
-                System.out.println(i);
+                sb.append(i).append("\n");
             }
+
+            System.out.println(sb);
         }
     }
 }
