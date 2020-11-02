@@ -14,12 +14,13 @@ public class 한조서열정리하고옴ㅋㅋ {
             int count = 0;
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] < array[j]) {
-                    max = count > max ? count : max;
                     break;
                 } else if (array[i] > array[j]){
                     ++count;
                 }
             }
+
+            max = count > max ? count : max;
         }
 
         System.out.println(max);
