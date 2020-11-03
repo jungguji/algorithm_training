@@ -234,9 +234,12 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[집합](https://www.acmicpc.net/problem/11723)|[JAVA](src/main/java/algorithm/baekjoon/class3/bitmask/집함.java)|[]()|[]()
 
+### 다이나믹 프로그래밍
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[Four Squares](https://www.acmicpc.net/problem/17626)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/Four_Squares.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/Four_SquaresTest.java)|[]()
 
 ### 미분류
-
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[점수_집계](https://www.acmicpc.net/problem/9076)|[JAVA](src/main/java/algorithm/baekjoon/class1/inoutput/점수_집계.java)|[]()|[]()
