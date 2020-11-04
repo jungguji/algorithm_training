@@ -186,6 +186,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
+|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|[JAVA](src/main/java/algorithm/baekjoon/class3/hash/나는야_포켓몬_마스터_이다솜.java)|[]()|[]()
 
 ### 정렬
 
