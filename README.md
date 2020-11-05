@@ -16,6 +16,7 @@
 |[크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)|[JAVA](/src/main/java/algorithm/programmers/level1/practice/크레인_인형뽑기_게임.java)| [TEST](/src/test/java/algorithm/programmers/level1/practice/크레인_인형뽑기_게임TEST.java)|[블로그](https://jungguji.github.io/2020/04/08/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%81%AC%EB%A0%88%EC%9D%B8-%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0-%EA%B2%8C%EC%9E%84/)
 |[키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)|[JAVA](src/main/java/algorithm/programmers/level1/practice/키패드_누르기.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/키패드_누르기Test.java)|[]()
 |[문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)|[JAVA](src/main/java/algorithm/programmers/level1/practice/문자열_다루기_기본.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/문자열_다루기_기본Test.java)|[]()
+|[체육복](https://programmers.co.kr/learn/courses/30/lessons/12918)|[JAVA](src/main/java/algorithm/programmers/level1/greedy/체육복.java)|[TEST](src/test/java/algorithm/programmers/level1/greedy/체육복TEST.java)|[]()
 
 ### Lv2
 
@@ -58,7 +59,7 @@
 |[오픈 채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[JAVA](src/main/java/algorithm/programmers/level2/practice/오픈채팅방.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/오픈채팅방Test.java)|[]()
 |[캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)|[JAVA](src/main/java/algorithm/programmers/level2/practice/캐시.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/캐시Test.java)|[블로그](https://jungguji.github.io/2020/07/24/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BA%90%EC%8B%9C/)
 |[점프와_순간_이동](https://programmers.co.kr/learn/courses/30/lessons/12980)|[JAVA](src/main/java/algorithm/programmers/level2/practice/점프와_순간_이동.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/점프와_순간_이동Test.java)|[]()
-|[예상 대진표]()|[JAVA](src/main/java/algorithm/programmers/level2/practice/예상_대진표.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/예상_대진표Test.java)|[]()
+|[예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985)|[JAVA](src/main/java/algorithm/programmers/level2/practice/예상_대진표.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/예상_대진표Test.java)|[]()
 |[n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[JAVA](src/main/java/algorithm/programmers/level2/practice/n진수_게임.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/n진수_게임Test.java)|[블로그](https://jungguji.github.io/2020/08/03/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-n%EC%A7%84%EC%88%98-%EA%B2%8C%EC%9E%84/)
 |[압축](https://programmers.co.kr/learn/courses/30/lessons/17684)|[JAVA](src/main/java/algorithm/programmers/level2/practice/압축.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/압축Test.java)|[블로그](https://jungguji.github.io/2020/08/06/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%95%95%EC%B6%95/)
 |[프렌즈 4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)|[JAVA](src/main/java/algorithm/programmers/level2/practice/프렌즈4블록.java)|[TEST](src/test/java/algorithm/programmers/level2/practice/프렌즈4블록Test.java)|[블로그](https://jungguji.github.io/2020/10/08/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D/)
@@ -165,6 +166,7 @@
 |[폴리오미노](https://www.acmicpc.net/problem/1343)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/폴리오미노.java)|[]()|[]()
 |[게임을 만든 동준이](https://www.acmicpc.net/problem/2847)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/게임을_만든_동준이.java)|[]()|[]()
 |[뒤집기](https://www.acmicpc.net/problem/1439)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/뒤집기.java)|[TEST](src/test/java/algorithm/baekjoon/greedy/silver/뒤집기Test.java)|[]()
+|[한조서열정리하고옴ㅋㅋ](https://www.acmicpc.net/problem/14659)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/한조서열정리하고옴ㅋㅋ.java)|[]()|[]()
 
 ### BFS
 
@@ -184,6 +186,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
+|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|[JAVA](src/main/java/algorithm/baekjoon/class3/hash/나는야_포켓몬_마스터_이다솜.java)|[]()|[]()
 
 ### 정렬
 
@@ -227,8 +230,17 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/별찍기9.java)|[]()|[]()
 
-### 미분류
+### 비트마스크
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[집합](https://www.acmicpc.net/problem/11723)|[JAVA](src/main/java/algorithm/baekjoon/class3/bitmask/집함.java)|[]()|[]()
 
+### 다이나믹 프로그래밍
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[Four Squares](https://www.acmicpc.net/problem/17626)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/Four_Squares.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/Four_SquaresTest.java)|[]()
+
+### 미분류
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[점수_집계](https://www.acmicpc.net/problem/9076)|[JAVA](src/main/java/algorithm/baekjoon/class1/inoutput/점수_집계.java)|[]()|[]()
