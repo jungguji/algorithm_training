@@ -131,6 +131,7 @@
 |[소수 찾기](https://www.acmicpc.net/problem/1978)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_찾기.java)|[]()|[]()
 |[소구 구하기](https://www.acmicpc.net/problem/1929)|[JAVA](src/main/java/algorithm/baekjoon/class2/math/소수_구하기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/math/소수_구하기Test.java)|[]()
 |[팩토리얼](https://www.acmicpc.net/problem/10872)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/팩토리얼.java)|[]()|[]()
+|[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)|[JAVA](src/main/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수.java)|[TEST](src/test/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수Test.java)|[]()
 
 ## Brute-force
 
