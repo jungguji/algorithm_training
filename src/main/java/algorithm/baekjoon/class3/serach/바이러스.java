@@ -1,4 +1,4 @@
-package 
+package algorithm.baekjoon.class3.serach;
 
 class 바이러스 {
    public static void main(String[] args) {
