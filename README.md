@@ -174,6 +174,7 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[미로 탐색](https://www.acmicpc.net/problem/2178)|[JAVA](/src/main/java/algorithm/baekjoon/bfs/미로탐색.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/미로탐색Test.java)|[]()
 |[단지번호붙이기](https://www.acmicpc.net/problem/2667)|[JAVA](/src/main/java/algorithm/baekjoon/bfs/단지번호붙이기.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/단지번호붙이기Test.java)|[]()
+|[바이러스](https://www.acmicpc.net/problem/2606)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.javaa)|[]()|[]()
 
 ### Heap
 
