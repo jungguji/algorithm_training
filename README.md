@@ -245,6 +245,11 @@
 |[Four Squares](https://www.acmicpc.net/problem/17626)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/Four_Squares.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/Four_SquaresTest.java)|[]()
 |[계단 오르기](https://www.acmicpc.net/problem/2579)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/계단_오르기.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/계단_오르기Test.java)|[]()
 
+### 분할 정복
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[색종이 만들기](https://www.acmicpc.net/problem/2630)|[JAVA](src/main/java/algorithm/baekjoon/class3/dac/색종이_만들기.java)|[]()|[]()
+
 ### 미분류
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
