@@ -245,6 +245,7 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[Four Squares](https://www.acmicpc.net/problem/17626)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/Four_Squares.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/Four_SquaresTest.java)|[]()
 |[계단 오르기](https://www.acmicpc.net/problem/2579)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/계단_오르기.java)|[TEST](src/test/java/algorithm/baekjoon/class3/dp/계단_오르기Test.java)|[]()
+|[파도반 수열](https://www.acmicpc.net/problem/9461)|[JAVA](src/main/java/algorithm/baekjoon/class3/dp/파도반_수열.java)|[]()|[]()
 
 ### 분할 정복
 | 문제 | 코드 | 테스트 | 풀이 |
