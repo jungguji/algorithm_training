@@ -134,6 +134,7 @@
 |[팩토리얼](https://www.acmicpc.net/problem/10872)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/팩토리얼.java)|[]()|[]()
 |[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)|[JAVA](src/main/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수.java)|[TEST](src/test/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수Test.java)|[]()
 |[패션왕 신해빈](https://www.acmicpc.net/problem/9375)|[JAVA](src/main/java/algorithm/baekjoon/class3/math/패션왕_신해빈.java)|[]()|[]()
+|[저작권](https://www.acmicpc.net/problem/2914)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/저작권.java)|[]()|[]()
 
 ## Brute-force
 
