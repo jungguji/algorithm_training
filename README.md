@@ -179,12 +179,13 @@
 |[단지번호붙이기](https://www.acmicpc.net/problem/2667)|[JAVA](/src/main/java/algorithm/baekjoon/bfs/단지번호붙이기.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/단지번호붙이기Test.java)|[]()
 |[바이러스](https://www.acmicpc.net/problem/2606)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.java)|[]()|[]()
 |[유기농 배추](https://www.acmicpc.net/problem/1012)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
+|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
 
 ### Heap
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[미로 탐색](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()### Heap
+|[최소 힙](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()### Heap
 
 ### Hash
 
