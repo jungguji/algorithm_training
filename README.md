@@ -135,6 +135,7 @@
 |[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)|[JAVA](src/main/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수.java)|[TEST](src/test/java/algorithm/baekjoon/class3/math/팩토리얼_0의_개수Test.java)|[]()
 |[패션왕 신해빈](https://www.acmicpc.net/problem/9375)|[JAVA](src/main/java/algorithm/baekjoon/class3/math/패션왕_신해빈.java)|[]()|[]()
 |[저작권](https://www.acmicpc.net/problem/2914)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/저작권.java)|[]()|[]()
+|[저작권](https://www.acmicpc.net/problem/3003)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/킹퀸룩비숍나이트폰.java)|[]()|[]()
 
 ## Brute-force
 
@@ -180,6 +181,7 @@
 |[바이러스](https://www.acmicpc.net/problem/2606)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.java)|[]()|[]()
 |[유기농 배추](https://www.acmicpc.net/problem/1012)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
 |[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
+
 
 ### Heap
 
