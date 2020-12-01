@@ -221,7 +221,7 @@
 |[나무 자르기](https://www.acmicpc.net/problem/2805)|[JAVA](src/main/java/algorithm/baekjoon/class2/search/나무_자르기.java)|[TEST](src/test/java/algorithm/baekjoon/class2/search/나무_자르기Test.java)|[블로그](https://jungguji.github.io/2020/09/11/%EB%B0%B1%EC%A4%80-2805-%EB%82%98%EB%AC%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0/)
 |[듣보잡](https://www.acmicpc.net/problem/1764)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/듣보잡.java)|[]()|[]()
 
-### 스택 / 큐
+### 스택 / 큐 / 덱
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[카드2](https://www.acmicpc.net/problem/2164)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/카드2.java)|[]()|[]()
@@ -234,6 +234,7 @@
 |[요세푸스 문제 0](https://www.acmicpc.net/problem/11866)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/요세푸스_문제0.java)|[]()|[]()
 |[스택 수열](https://www.acmicpc.net/problem/1874)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/스택_수열.java)|[]()|[]()
 |[프린터 큐](https://www.acmicpc.net/problem/1966)|[JAVA](src/main/java/algorithm/baekjoon/class2/stackqueue/프린터_큐.java)|[TEST](src/test/java/algorithm/baekjoon/class2/stackqueue/프린터_큐Test.java)|[]()
+|[AC](https://www.acmicpc.net/problem/5430)|[JAVA](src/main/java/algorithm/baekjoon/class3/avatar/AC.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
