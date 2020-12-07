@@ -188,7 +188,8 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[최소 힙](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()### Heap
+|[최소 힙](https://www.acmicpc.net/problem/1927)|[JAVA](/src/main/java/algorithm/baekjoon/heap/최소_힙.java)|[]()|[]()
+|[최소 힙](https://www.acmicpc.net/problem/11279)|[JAVA](src/main/java/algorithm/baekjoon/class3/heap/최대_힙.java)|[]()|[]()
 
 ### Hash
 
