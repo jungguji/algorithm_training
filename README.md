@@ -182,6 +182,7 @@
 |[바이러스](https://www.acmicpc.net/problem/2606)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.java)|[]()|[]()
 |[유기농 배추](https://www.acmicpc.net/problem/1012)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
 |[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
+|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/연결_요소의_개수.java)|[]()|[]()
 
 
 ### Heap
