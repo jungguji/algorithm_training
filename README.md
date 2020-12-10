@@ -262,6 +262,11 @@
 |[색종이 만들기](https://www.acmicpc.net/problem/2630)|[JAVA](src/main/java/algorithm/baekjoon/class3/dac/색종이_만들기.java)|[]()|[]()
 |[종이의 개수](https://www.acmicpc.net/problem/1780)|[JAVA](src/main/java/algorithm/baekjoon/class3/dac/종이의_개수.java)|[]()|[]()
 
+### 좌표 압축
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[좌표 압축](https://www.acmicpc.net/problem/18870)|[JAVA](src/main/java/algorithm/baekjoon/class3/coordinate/좌표_압축.java)|[]()|[]()
+
 ### 미분류
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
