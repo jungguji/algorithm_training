@@ -98,6 +98,7 @@
 |[긴자리 계산](https://www.acmicpc.net/problem/2338)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/긴자리_계산.java)|[]()|[]()
 |[R2](https://www.acmicpc.net/problem/3046)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/R2.java)|[]()|[]()
 |[카드게임](https://www.acmicpc.net/problem/5522)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/카드_게임.java)|[]()|[]()
+|[심부름 가는 길](https://www.acmicpc.net/problem/5554)|[JAVA](src/main/java/algorithm/baekjoon/fourrulescalculation/bronze/심부름_가는_길.java)|[]()|[]()
 
 ## 배열
 
