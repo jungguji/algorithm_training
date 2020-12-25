@@ -12,8 +12,8 @@ public class 최소_힙 {
 
         int amount = Integer.parseInt(br.readLine());
 
-        Queue<Integer> queue = new PriorityQueue<Integer>();
-        for (int i = 0; i < amount; i++) {
+        Queue<Integer> queue = new PriorityQueue<>();
+        while (amount-- > 0) {
             int value = Integer.parseInt(br.readLine());
             if (value == 0) {
                 System.out.println(queue.isEmpty() ? "0" : queue.poll());
