@@ -249,6 +249,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/별찍기9.java)|[]()|[]()
+|[웰컴](https://www.acmicpc.net/problem/5337)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/웰컴.java)|[]()|[]()
 
 ### 비트마스크
 | 문제 | 코드 | 테스트 | 풀이 |
