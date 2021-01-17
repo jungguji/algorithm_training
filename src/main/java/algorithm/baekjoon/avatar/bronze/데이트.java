@@ -3,6 +3,7 @@ package algorithm.baekjoon.avatar.bronze;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 
 public class 데이트 {
     public static void main(String[] args) throws IOException {
@@ -11,13 +12,12 @@ public class 데이트 {
         int[] minsikLove = getLoveCount(minsik);
 
         int n = Integer.parseInt(br.readLine());
-        int max = 0;
-        String maxGirlName = "zzzzzzzzzzzzzzzzzzzz";
+        int max = Integer.MIN_VALUE;
+        PriorityQueue<String> queue = new PriorityQueue<>();
 
         while (n-- > 0) {
             String name = br.readLine();
             char[] girlName = name.toCharArray();
-
             int[] girlLove = getLoveCount(girlName);
 
             int l = minsikLove[0] + girlLove[0];
@@ -29,14 +29,13 @@ public class 데이트 {
 
             if (max < score) {
                 max = score;
+                queue.offer(name);
             } else if (max == score) {
-                if (maxGirlName.compareTo(name) > 0) {
-                    maxGirlName = name;
-                }
+                queue.offer(name);
             }
         }
 
-        System.out.println(maxGirlName);
+        System.out.println(queue.poll());
     }
 
     private static int[] getLoveCount(char[] name) {
