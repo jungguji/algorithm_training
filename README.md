@@ -245,6 +245,7 @@
 |[AC](https://www.acmicpc.net/problem/5430)|[JAVA](src/main/java/algorithm/baekjoon/class3/avatar/AC.java)|[]()|[]()
 |[에디터](https://www.acmicpc.net/problem/1406)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/에디터.java)|[]()|[블로그](https://jungguji.github.io/2020/12/14/%EB%B0%B1%EC%A4%80-1406%EB%B2%88-%EC%97%90%EB%94%94%ED%84%B0/)
 |[카드1](https://www.acmicpc.net/problem/2161)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/카드1.java)|[]()|[]()
+|[베스트셀러](https://www.acmicpc.net/problem/1302)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/베스트셀러.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
