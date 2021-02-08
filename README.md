@@ -254,6 +254,7 @@
 |[웰컴](https://www.acmicpc.net/problem/5337)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/웰컴.java)|[]()|[]()
 |[뒤집힌 덧셈](https://www.acmicpc.net/problem/1357)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/뒤집힌_덧셈.java)|[]()|[]()
 |[피시방 알바](https://www.acmicpc.net/problem/1453)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/피시방_알바.java)|[]()|[]()
+|[피시방 알바](https://www.acmicpc.net/problem/1235)|[JAVA](src/main/java/algorithm/baekjoon/avatar/silver/학생_번호.java)|[]()|[]()
 
 ### 비트마스크
 | 문제 | 코드 | 테스트 | 풀이 |
