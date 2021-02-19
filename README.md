@@ -176,6 +176,7 @@
 |[게임을 만든 동준이](https://www.acmicpc.net/problem/2847)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/게임을_만든_동준이.java)|[]()|[]()
 |[뒤집기](https://www.acmicpc.net/problem/1439)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/뒤집기.java)|[TEST](src/test/java/algorithm/baekjoon/greedy/silver/뒤집기Test.java)|[]()
 |[한조서열정리하고옴ㅋㅋ](https://www.acmicpc.net/problem/14659)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/한조서열정리하고옴ㅋㅋ.java)|[]()|[]()
+|[캠핑](https://www.acmicpc.net/problem/14659)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/캠핑.java)|[]()|[]()
 
 ### BFS / DFS
 
