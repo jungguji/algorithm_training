@@ -178,6 +178,7 @@
 |[한조서열정리하고옴ㅋㅋ](https://www.acmicpc.net/problem/14659)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/한조서열정리하고옴ㅋㅋ.java)|[]()|[]()
 |[캠핑](https://www.acmicpc.net/problem/4796)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/캠핑.java)|[]()|[]()
 |[병든 나이트](https://www.acmicpc.net/problem/1783)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/병든_나이트.java)|[]()|[]()
+|[세탁소 사장 동혁](https://www.acmicpc.net/problem/2720)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/세탁소_사장_동혁.java)|[]()|[]()
 
 ### BFS / DFS
 
