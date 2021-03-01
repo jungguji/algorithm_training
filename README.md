@@ -180,6 +180,7 @@
 |[병든 나이트](https://www.acmicpc.net/problem/1783)|[JAVA](src/main/java/algorithm/baekjoon/greedy/silver/병든_나이트.java)|[]()|[]()
 |[세탁소 사장 동혁](https://www.acmicpc.net/problem/2720)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/세탁소_사장_동혁.java)|[]()|[]()
 |[캥거루_세마리2](https://www.acmicpc.net/problem/11034)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/캥거루_세마리2.java)|[]()|[]()
+|[책 정리](https://www.acmicpc.net/problem/1434)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/책정리.java)|[]()|[]()
 
 ### BFS / DFS
 
