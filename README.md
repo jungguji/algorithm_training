@@ -181,6 +181,7 @@
 |[세탁소 사장 동혁](https://www.acmicpc.net/problem/2720)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/세탁소_사장_동혁.java)|[]()|[]()
 |[캥거루_세마리2](https://www.acmicpc.net/problem/11034)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/캥거루_세마리2.java)|[]()|[]()
 |[책 정리](https://www.acmicpc.net/problem/1434)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/책정리.java)|[]()|[]()
+|[컵홀더](https://www.acmicpc.net/problem/2810)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/컵홀더.java)|[]()|[]()
 
 ### BFS / DFS
 
