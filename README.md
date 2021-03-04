@@ -182,6 +182,7 @@
 |[캥거루_세마리2](https://www.acmicpc.net/problem/11034)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/캥거루_세마리2.java)|[]()|[]()
 |[책 정리](https://www.acmicpc.net/problem/1434)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/책정리.java)|[]()|[]()
 |[컵홀더](https://www.acmicpc.net/problem/2810)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/컵홀더.java)|[]()|[]()
+|[ZOAC 2](https://www.acmicpc.net/problem/18238)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/ZOAC_2.java)|[]()|[]()
 
 ### BFS / DFS
 
