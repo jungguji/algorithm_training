@@ -255,6 +255,7 @@
 |[카드1](https://www.acmicpc.net/problem/2161)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/카드1.java)|[]()|[]()
 |[베스트셀러](https://www.acmicpc.net/problem/1302)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/베스트셀러.java)|[]()|[]()
 |[2017 아주대학교 프로그래밍 경시대회 (Small)](https://www.acmicpc.net/problem/14592)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/아주대학교_경시대회S.java)|[]()|[]()
+|[2017 아주대학교 프로그래밍 경시대회 (Large)](https://www.acmicpc.net/problem/14593)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/아주대학교_경시대회S.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
