@@ -3,6 +3,7 @@ package algorithm.baekjoon.structure.silver;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,7 +23,7 @@ public class 회사에_있는_사람 {
 
         List<Map.Entry<String, String>> entries = map.entrySet().stream()
                 .filter(s -> s.getValue().equals("enter"))
-                .sorted((s1, s2) -> s1.getKey().compareTo(s2.getKey()))
+                .sorted(Comparator.comparing(Map.Entry::getKey))
                 .collect(Collectors.toList());
 
         StringBuilder sb = new StringBuilder();
