@@ -21,7 +21,9 @@ public class 회사에_있는_사람 {
         }
 
         List<Map.Entry<String, String>> entries = map.entrySet().stream()
-                .filter(s -> s.getValue().equals("enter")).sorted((s1, s2) -> s1.getKey().compareTo(s2.getKey())).collect(Collectors.toList());
+                .filter(s -> s.getValue().equals("enter"))
+                .sorted((s1, s2) -> s1.getKey().compareTo(s2.getKey()))
+                .collect(Collectors.toList());
 
         StringBuilder sb = new StringBuilder();
         for (int i = entries.size()-1; i > -1; i--) {
