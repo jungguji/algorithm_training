@@ -261,6 +261,7 @@
 |[요세푸스 문제](https://www.acmicpc.net/problem/1158)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/요세푸스_문제.java)|[]()|[]()
 |[Open source](https://www.acmicpc.net/problem/4236)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Open_Source.java)|[]()|[]()
 |[회사에 있는 사람](https://www.acmicpc.net/problem/7785)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/회사에_있는_사람.java)|[]()|[]()
+|[Maximum Word Frequency](https://www.acmicpc.net/problem/9612)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Maximum_Word_Frequency.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
