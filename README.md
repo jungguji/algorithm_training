@@ -254,6 +254,14 @@
 |[에디터](https://www.acmicpc.net/problem/1406)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/에디터.java)|[]()|[블로그](https://jungguji.github.io/2020/12/14/%EB%B0%B1%EC%A4%80-1406%EB%B2%88-%EC%97%90%EB%94%94%ED%84%B0/)
 |[카드1](https://www.acmicpc.net/problem/2161)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/카드1.java)|[]()|[]()
 |[베스트셀러](https://www.acmicpc.net/problem/1302)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/베스트셀러.java)|[]()|[]()
+|[2017 아주대학교 프로그래밍 경시대회 (Small)](https://www.acmicpc.net/problem/14592)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/아주대학교_경시대회S.java)|[]()|[]()
+|[2017 아주대학교 프로그래밍 경시대회 (Large)](https://www.acmicpc.net/problem/14593)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/아주대학교_경시대회S.java)|[]()|[]()
+|[단어순서 뒤집기](https://www.acmicpc.net/problem/12605)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/단어순서_뒤집기.java)|[]()|[]()
+|[고무오리 디버깅](https://www.acmicpc.net/problem/20001)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/고무오리_디버깅.java)|[]()|[]()
+|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/요세푸스_문제.java)|[]()|[]()
+|[Open source](https://www.acmicpc.net/problem/4236)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Open_Source.java)|[]()|[]()
+|[회사에 있는 사람](https://www.acmicpc.net/problem/7785)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/회사에_있는_사람.java)|[]()|[]()
+|[Maximum Word Frequency](https://www.acmicpc.net/problem/9612)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Maximum_Word_Frequency.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
