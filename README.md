@@ -105,7 +105,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[나머지](https://www.acmicpc.net/problem/3052)|[JAVA](src/main/java/algorithm/baekjoon/array/나머지.java)|[]()|[]()
-|[블랙잭](https://www.acmicpc.net/problem/2798)|[JAVA](src/main/java/algorithm/baekjoon/class2/array/블랙잭.java)|[Test](src/test/java/algorithm/baekjoon/class2/array/블랙잭Test.java)|[]()
+|[블랙잭](https://www.acmicpc.net/problem/2798)|[JAVA](src/main/java/algorithm/baekjoon/class2/array/블랙잭.java)|[TEST](src/test/java/algorithm/baekjoon/class2/array/블랙잭Test.java)|[]()
 
 ## 문자열
 
