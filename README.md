@@ -105,7 +105,7 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[나머지](https://www.acmicpc.net/problem/3052)|[JAVA](src/main/java/algorithm/baekjoon/array/나머지.java)|[]()|[]()
-|[블랙잭](https://www.acmicpc.net/problem/2798)|[JAVA](src/main/java/algorithm/baekjoon/class2/array/블랙잭.java)|[Test](src/test/java/algorithm/baekjoon/class2/array/블랙잭Test.java)|[]()
+|[블랙잭](https://www.acmicpc.net/problem/2798)|[JAVA](src/main/java/algorithm/baekjoon/class2/array/블랙잭.java)|[TEST](src/test/java/algorithm/baekjoon/class2/array/블랙잭Test.java)|[]()
 
 ## 문자열
 
@@ -208,7 +208,7 @@
 
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[Test](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
+|[Hashing](https://www.acmicpc.net/problem/15829)|[JAVA](src/main/java/algorithm/baekjoon/class2/hash/Hashing.java)|[TEST](src/test/java/algorithm/baekjoon/class2/hash/HashingTest.java)|[]()
 |[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|[JAVA](src/main/java/algorithm/baekjoon/class3/hash/나는야_포켓몬_마스터_이다솜.java)|[]()|[]()
 |[비밀번호 찾기](https://www.acmicpc.net/problem/17219)|[JAVA](src/main/java/algorithm/baekjoon/class3/hash/비밀번호_찾기.java)|[]()|[]()
 
