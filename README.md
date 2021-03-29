@@ -263,6 +263,7 @@
 |[Open source](https://www.acmicpc.net/problem/4236)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Open_Source.java)|[]()|[]()
 |[회사에 있는 사람](https://www.acmicpc.net/problem/7785)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/회사에_있는_사람.java)|[]()|[]()
 |[Maximum Word Frequency](https://www.acmicpc.net/problem/9612)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Maximum_Word_Frequency.java)|[]()|[]()
+|[국회의원 선거](https://www.acmicpc.net/problem/1417)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/국회의원_선거.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |

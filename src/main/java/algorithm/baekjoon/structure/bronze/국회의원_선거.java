@@ -12,34 +12,27 @@ public class 국회의원_선거 {
         int n = Integer.parseInt(br.readLine());
 
         LinkedList<Integer> queue = new LinkedList<>();
-        int initValue = 0;
-        for (int i = 0; i < n; i++) {
+        int dasom = Integer.parseInt(br.readLine());
+        for (int i = 0; i < n-1; i++) {
             int input = Integer.parseInt(br.readLine());
-
-            if (i == 0) {
-                initValue = input;
-            } else if (initValue < input){
-                continue;
-            }
 
             queue.offer(input);
         }
 
-        int current = initValue;
-        while (queue.size() != 1) {
-            int peek = queue.peek();
-            if (peek < current) {
-                queue.poll();
-            } else if (peek == current) {
-                int lastIndex = queue.size()-1;
+        Collections.sort(queue);
 
-                queue.set(lastIndex, queue.get(lastIndex)-1);
-                queue.set(0, ++current);
+        int answer = 0;
+        for (; !queue.isEmpty() && queue.peekLast() >= dasom; answer++) {
+            if (queue.peek() < dasom) {
+                queue.poll();
             }
+
+            queue.offer((queue.pollLast()-1));
+            dasom++;
 
             Collections.sort(queue);
         }
 
-        System.out.println(current - initValue);
+        System.out.println(answer);
     }
 }
