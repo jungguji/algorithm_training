@@ -265,6 +265,7 @@
 |[Maximum Word Frequency](https://www.acmicpc.net/problem/9612)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Maximum_Word_Frequency.java)|[]()|[]()
 |[국회의원 선거](https://www.acmicpc.net/problem/1417)|[JAVA](src/main/java/algorithm/baekjoon/structure/bronze/국회의원_선거.java)|[]()|[]()
 |[Judging Troubles](https://www.acmicpc.net/problem/10527)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Judging_Troubles.java)|[]()|[]()
+|[Cornell Party - Retry](https://www.acmicpc.net/problem/11346)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/Cornell_Party_Retry.java)|[]()|[]()
 
 ### 구현
 | 문제 | 코드 | 테스트 | 풀이 |
