@@ -300,10 +300,10 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[좌표 압축](https://www.acmicpc.net/problem/18870)|[JAVA](src/main/java/algorithm/baekjoon/class3/coordinate/좌표_압축.java)|[]()|[블로그](https://jungguji.github.io/2020/12/15/%EB%B0%B1%EC%A4%80-18870%EB%B2%88-%EC%A2%8C%ED%91%9C-%EC%95%95%EC%B6%95/)
 
-### 비트마스크
+### 구간 합
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[집합](https://www.acmicpc.net/problem/11659)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/구간_합_구하기_4.java)|[]()|[]()
+|[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/구간_합_구하기_4.java)|[]()|[]()
 
 ### 미분류
 | 문제 | 코드 | 테스트 | 풀이 |
