@@ -228,6 +228,7 @@
 |[소트인사이드](https://www.acmicpc.net/problem/1427)|[JAVA](src/main/java/algorithm/baekjoon/sort/silver/소트인사이드.java)|[]()|[]()
 |[수 정렬하기 4](https://www.acmicpc.net/problem/11931)|[JAVA](src/main/java/algorithm/baekjoon/sort/silver/수_정렬하기4.java)|[]()|[]()
 |[보물](https://www.acmicpc.net/problem/1026)|[JAVA](src/main/java/algorithm/baekjoon/sort/silver/수_정렬하기4.java)|[]()|[]()
+|[보물](https://www.acmicpc.net/problem/10867)|[JAVA](src/main/java/algorithm/baekjoon/sort/silver/중복_빼고_정렬하기.java)|[]()|[]()
 
 ### 이진 탐색
 | 문제 | 코드 | 테스트 | 풀이 |
