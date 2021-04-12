@@ -142,6 +142,7 @@
 |[저작권](https://www.acmicpc.net/problem/2914)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/저작권.java)|[]()|[]()
 |[저작권](https://www.acmicpc.net/problem/3003)|[JAVA](src/main/java/algorithm/baekjoon/math/bronze/킹퀸룩비숍나이트폰.java)|[]()|[]()
 |[가로수](https://www.acmicpc.net/problem/2485)|[JAVA](src/main/java/algorithm/baekjoon/math/silver/가로수.java)|[]()|[]()
+|[약수](https://www.acmicpc.net/problem/1037)|[JAVA](src/main/java/algorithm/baekjoon/math/silver/약수.java)|[]()|[]()
 
 ## Brute-force
 
