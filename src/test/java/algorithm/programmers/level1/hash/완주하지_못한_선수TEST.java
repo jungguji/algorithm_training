@@ -1,10 +1,9 @@
 package algorithm.programmers.level1.hash;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static junit.framework.Assert.assertEquals;
 
 public class 완주하지_못한_선수TEST {
 
@@ -31,6 +30,6 @@ public class 완주하지_못한_선수TEST {
         completion[2] = "marina";
         completion[3] = "nikola";
         
-        assertThat(test.solution(participant, completion), is("nikola"));
+        assertEquals("nikola", test.solution(participant, completion));
     }
 }
