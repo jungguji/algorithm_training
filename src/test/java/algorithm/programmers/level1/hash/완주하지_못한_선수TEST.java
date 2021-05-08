@@ -3,7 +3,7 @@ package algorithm.programmers.level1.hash;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class 완주하지_못한_선수TEST {
 
