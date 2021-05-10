@@ -8,7 +8,9 @@ public class 신규_아이디_추천 {
         String changeId = new_id.toLowerCase();
 
         changeId = removeSpecialCharacters(changeId);
-        changeId = removeContinuousDot(changeId);
+//        changeId = changeId.replaceAll("[^-_.a-z0-9]", "");
+//        changeId = removeContinuousDot(changeId);
+        changeId = changeId.replaceAll("[.]{2,}", ".");
         changeId = removeStartAndEndDot(changeId);
         changeId = changeId.isEmpty() ? "a" : changeId;
         changeId = changeId.length() > 15 ? new String(changeId.toCharArray(), 0, 15) : changeId;
@@ -30,32 +32,6 @@ public class 신규_아이디_추천 {
         }
 
         return changeId.toString();
-    }
-
-    private String removeContinuousDot(String id) {
-        char[] array = id.toCharArray();
-
-        List<String> dots = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0 ; i < array.length; i++) {
-            if (array[i] == '.') {
-                sb.append(".");
-            } else if (sb.length() > 0){
-                dots.add(sb.toString());
-                sb.setLength(0);
-            }
-        }
-
-        if (sb.length() > 0) {
-            dots.add(sb.toString());
-            sb.setLength(0);
-        }
-
-        for (String dot : dots) {
-            id = id.replace(dot, ".");
-        }
-
-        return id;
     }
 
     private String removeStartAndEndDot(String id) {
