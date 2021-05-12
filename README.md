@@ -18,6 +18,7 @@
 |[체육복](https://programmers.co.kr/learn/courses/30/lessons/12918)|[JAVA](src/main/java/algorithm/programmers/level1/greedy/체육복.java)|[TEST](src/test/java/algorithm/programmers/level1/greedy/체육복TEST.java)|[]()
 |[내적](https://programmers.co.kr/learn/courses/30/lessons/70128)|[JAVA](src/main/java/algorithm/programmers/level1/practice/내적.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/내적Test.java)|[]()
 |[음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)|[JAVA](src/main/java/algorithm/programmers/level1/practice/음양_더하기.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/음양_더하기Test.java)|[]()
+|[로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)|[JAVA](src/main/java/algorithm/programmers/level1/practice/로또의_최고_순위와_최저_순위.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/로또의_최고_순위와_최저_순위Test.java)|[]()
 
 ### Lv2
 | 문제 | 코드 | 테스트 | 풀이 |
