@@ -284,6 +284,7 @@
 |[피시방 알바](https://www.acmicpc.net/problem/1453)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/피시방_알바.java)|[]()|[]()
 |[피시방 알바](https://www.acmicpc.net/problem/1235)|[JAVA](src/main/java/algorithm/baekjoon/avatar/silver/학생_번호.java)|[]()|[]()
 |[큰 수 A=B](https://www.acmicpc.net/problem/10757)|[JAVA](src/main/java/algorithm/baekjoon/avatar/bronze/큰_수_AB.java)|[]()|[]()
+|[귀걸이](https://www.acmicpc.net/problem/1380)|[JAVA](src/main/java/algorithm/baekjoon/avatar/silver/귀걸이.java)|[]()|[]()
 
 ### 비트마스크
 | 문제 | 코드 | 테스트 | 풀이 |
