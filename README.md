@@ -189,7 +189,7 @@
 |[책 정리](https://www.acmicpc.net/problem/1434)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/책정리.java)|[]()|[]()
 |[컵홀더](https://www.acmicpc.net/problem/2810)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/컵홀더.java)|[]()|[]()
 |[ZOAC 2](https://www.acmicpc.net/problem/18238)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/ZOAC_2.java)|[]()|[]()
-|[ZOAC 2](https://www.acmicpc.net/problem/2828)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/사과_담기_게임.java)|[]()|[]()
+|[사과 담기 게임](https://www.acmicpc.net/problem/2828)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/사과_담기_게임.java)|[]()|[]()
 |[APC는_왜_서브태스크_대회가_되었을까?](https://www.acmicpc.net/problem/17224)|[JAVA](src/main/java/algorithm/baekjoon/greedy/bronze/APC는_왜_서브태스크_대회가_되었을까.java)|[]()|[]()
 
 ### BFS / DFS
