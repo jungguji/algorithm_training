@@ -5,6 +5,8 @@
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
 > 출처: 백준 온라인 저지, https://www.acmicpc.net/
+
+> 출처 : 릿코드, https://leetcode.com/
 * * *
 
 ## 프로그래머스
@@ -322,3 +324,11 @@
 |[부녀회장이 될테야](https://www.acmicpc.net/problem/2775)|[JAVA](src/main/java/algorithm/baekjoon/class2/practice/부녀회장이_퇼테야.java)|[]()|[]()
 |[맞았는데 왜 틀리죠?](https://www.acmicpc.net/problem/15820)|[JAVA](src/main/java/algorithm/baekjoon/practice/왜맞틀.java)|[]()|[]()
 |[사분면 고르기](https://www.acmicpc.net/problem/14681)|[JAVA](src/main/java/algorithm/baekjoon/practice/사분면_고르기.java)|[]()|[]()
+* * *
+
+## 릿코드
+
+### Array
+| 문제 | 코드 | 테스트 | 풀이 |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[Max Consecutive Ones](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/)|[JAVA](src/main/java/algorithm/leetcode/explore/learn/MaxConsecutiveOnes.java)|[TEST](src/test/java/algorithm/leetcode/explore/learn/MaxConsecutiveOnesTest.java)|[]()
