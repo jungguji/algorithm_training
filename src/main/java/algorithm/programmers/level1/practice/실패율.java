@@ -9,11 +9,11 @@ import java.util.Map;
 
 public class 실패율 {
     public int[] solution(int N, int[] stages) {
-        int[] failUsers = new int[N+2];
+        int[] failUsers = new int[N + 2];
         for (int stage : stages) {
             failUsers[stage] += 1;
         }
-        
+
         Map<Integer, Double> map = new HashMap<Integer, Double>();
         double userCount = stages.length;
         for (int i = 1; i <= N; i++) {
@@ -24,7 +24,7 @@ public class 실패율 {
             }
             map.put(i, value);
         }
-        
+
         List<Integer> list = new ArrayList<Integer>(map.keySet());
         Collections.sort(list, new Comparator<Integer>() {
 
@@ -33,10 +33,10 @@ public class 실패율 {
                 return map.get(o2).compareTo(map.get(o1));
             }
         });
-        
-        
+
+
         int[] answer = list.stream().mapToInt(i -> i).toArray();
         return answer;
     }
-    
+
 }

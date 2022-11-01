@@ -14,7 +14,7 @@ public class 세탁소_사장_동혁 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringBuilder sb = new StringBuilder();
-        int[] array = new int[] {QUARTER, DIME, NICKEL, PENNY};
+        int[] array = new int[]{QUARTER, DIME, NICKEL, PENNY};
 
         int testCase = Integer.parseInt(br.readLine());
         while (testCase-- > 0) {

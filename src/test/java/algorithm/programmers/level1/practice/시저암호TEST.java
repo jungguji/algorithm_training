@@ -6,14 +6,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class 시저암호TEST implements TEST {
-    
+
     private 시저암호 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 시저암호();
     }
-    
+
     @Test
     public void solutionTest() {
         assertEquals("BC", test.solution("AB", 1));

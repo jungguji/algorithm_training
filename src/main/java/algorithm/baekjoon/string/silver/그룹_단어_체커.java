@@ -32,7 +32,7 @@ public class 그룹_단어_체커 {
             }
 
             for (int j = i; j < array.length; j++) {
-                if (array[i-1] == array[j]) {
+                if (array[i - 1] == array[j]) {
                     isGroupWord = false;
                     break;
                 }

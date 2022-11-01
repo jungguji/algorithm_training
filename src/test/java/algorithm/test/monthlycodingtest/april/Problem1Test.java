@@ -16,6 +16,6 @@ class Problem1Test {
 
     @Test
     void solution() {
-        assertEquals(9, problem1.solution(new int[]{4,7,12}, new boolean[]{true, false, true}));
+        assertEquals(9, problem1.solution(new int[]{4, 7, 12}, new boolean[]{true, false, true}));
     }
 }

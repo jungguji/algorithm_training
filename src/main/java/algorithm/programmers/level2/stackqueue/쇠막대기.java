@@ -5,7 +5,7 @@ import java.util.Stack;
 public class 쇠막대기 {
     public int solution(String arrangement) {
         char[] ch = arrangement.toCharArray();
-        
+
         int answer = 0;
         char pre = 0;
         Stack<Character> stack = new Stack<Character>();
@@ -20,10 +20,10 @@ public class 쇠막대기 {
                     answer += stack.size();
                 }
             }
-            
-            pre  = c;
+
+            pre = c;
         }
-        
+
         return answer;
     }
 }

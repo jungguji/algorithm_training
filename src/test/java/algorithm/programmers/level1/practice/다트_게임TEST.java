@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 다트_게임TEST implements TEST {
 
     private 다트_게임 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 다트_게임();

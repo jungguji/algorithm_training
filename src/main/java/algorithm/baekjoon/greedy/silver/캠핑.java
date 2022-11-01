@@ -19,7 +19,7 @@ public class 캠핑 {
             int p = lpv[1];
             int v = lpv[2];
 
-            sb.append("Case ").append(++i).append(": ").append((v/p) * l + ((v%p) > l ? l : (v%p))).append("\n");
+            sb.append("Case ").append(++i).append(": ").append((v / p) * l + ((v % p) > l ? l : (v % p))).append("\n");
         }
 
         System.out.println(sb);

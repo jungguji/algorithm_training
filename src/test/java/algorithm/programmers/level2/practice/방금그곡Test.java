@@ -18,10 +18,10 @@ class 방금그곡Test {
 
     @Test
     void solution() throws ParseException {
-        assertEquals("HELLO", test.solution("ABCDEFG", new String[] {"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"}));
-        assertEquals("FOO", test.solution("CC#BCC#BCC#BCC#B", new String[] {"03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"}));
-        assertEquals("WORLD", test.solution("ABC", new String[] {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"}));
-        assertEquals("(None)", test.solution("CDEFGAC", new String[] {"12:00,12:06,HELLO,CDEFGA"}));
-        assertEquals("FOO", test.solution("CCB", new String[] {"03:00,03:10,FOO,CCB#CCB", "04:00,04:08,BAR,ABC"}));
+        assertEquals("HELLO", test.solution("ABCDEFG", new String[]{"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"}));
+        assertEquals("FOO", test.solution("CC#BCC#BCC#BCC#B", new String[]{"03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"}));
+        assertEquals("WORLD", test.solution("ABC", new String[]{"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"}));
+        assertEquals("(None)", test.solution("CDEFGAC", new String[]{"12:00,12:06,HELLO,CDEFGA"}));
+        assertEquals("FOO", test.solution("CCB", new String[]{"03:00,03:10,FOO,CCB#CCB", "04:00,04:08,BAR,ABC"}));
     }
 }

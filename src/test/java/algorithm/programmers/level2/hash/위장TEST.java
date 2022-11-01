@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 위장TEST implements TEST {
 
     private 위장 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 위장();
@@ -18,8 +18,8 @@ public class 위장TEST implements TEST {
 
     @Test
     public void solutionTest() {
-        assertEquals(5, test.solution(new String[][] {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}}));
-        assertEquals(3, test.solution(new String[][] {{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"green_turban", "face"}}));
+        assertEquals(5, test.solution(new String[][]{{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}}));
+        assertEquals(3, test.solution(new String[][]{{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"green_turban", "face"}}));
     }
 
 }

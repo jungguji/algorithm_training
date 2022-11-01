@@ -16,9 +16,9 @@ class N개의_최소공배수Test {
 
     @Test
     void solution() {
-        assertEquals(168, test.solution(new int[] {2,6,8,14}));
-        assertEquals(6, test.solution(new int[] {1,2,3}));
-        assertEquals(35945910, test.solution(new int[] {38, 98, 22, 14, 49, 6, 35, 2, 65, 54}));
-        assertEquals(1020, test.solution(new int[] {17,3,6,20}));
+        assertEquals(168, test.solution(new int[]{2, 6, 8, 14}));
+        assertEquals(6, test.solution(new int[]{1, 2, 3}));
+        assertEquals(35945910, test.solution(new int[]{38, 98, 22, 14, 49, 6, 35, 2, 65, 54}));
+        assertEquals(1020, test.solution(new int[]{17, 3, 6, 20}));
     }
 }

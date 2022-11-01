@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 
 public class 영화감독_숌 {
     private static final int REQUIRED_NAME = 666;
+
     public static void main(String[] args) throws IOException {
         int input = Integer.parseInt(getInputData(System.in));
         int answer = solution(input);

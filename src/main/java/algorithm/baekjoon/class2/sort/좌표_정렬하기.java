@@ -9,7 +9,7 @@ import java.util.List;
 
 public class 좌표_정렬하기 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());
 
             List<int[]> list = new ArrayList<>();

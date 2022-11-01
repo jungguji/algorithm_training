@@ -15,7 +15,7 @@ public class 한조서열정리하고옴ㅋㅋ {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] < array[j]) {
                     break;
-                } else if (array[i] > array[j]){
+                } else if (array[i] > array[j]) {
                     ++count;
                 }
             }

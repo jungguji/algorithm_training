@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class 수찾기 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             br.readLine();
             int[] array1 = convertStringArrayToIntegerArray(br.readLine().split(" "));
 

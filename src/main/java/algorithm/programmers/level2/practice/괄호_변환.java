@@ -73,7 +73,7 @@ public class 괄호_변환 {
         str.append(getDivide(v));
         str.append(RIGHT);
 
-        char[] newU = u.substring(1, u.length() -1).toCharArray();
+        char[] newU = u.substring(1, u.length() - 1).toCharArray();
         str.append(getChange(newU));
 
         return str.toString();

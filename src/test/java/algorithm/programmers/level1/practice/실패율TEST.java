@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 public class 실패율TEST implements TEST {
 
     private 실패율 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 실패율();
@@ -42,7 +42,7 @@ public class 실패율TEST implements TEST {
 //        assertEquals(50, map.get(4));
 //        assertEquals(0, map.get(5));
 //    }
-    
+
     @Test
     public void getStageMapTest2() {
 //        int[] stages = {1,1,1,1,2};
@@ -63,15 +63,15 @@ public class 실패율TEST implements TEST {
 //        assertEquals(0, map.get(3));
 //        assertEquals(0, map.get(4));
     }
-    
+
     @Test
     public void solutionTest() {
-        assertArrayEquals(new int[] {3,4,2,1,5}, test.solution(5, new int[] {2, 1, 2, 6, 2, 4, 3, 3}));
-        assertArrayEquals(new int[] {4,1,2,3}, test.solution(4, new int[] {4,4,4,4,4}));
-        assertArrayEquals(new int[] {2,1,3,4}, test.solution(4, new int[] {1,1,1,1,2}));
-        assertArrayEquals(new int[] {4,2,3,1}, test.solution(4, new int[] {3,2,5,4,2}));
-        assertArrayEquals(new int[] {7,6,2,3,5,4,1}, test.solution(7, new int[] {2, 1, 2, 6, 2, 4, 3, 3,7,5}));
-        assertArrayEquals(new int[] {1,2,3,4,5}, test.solution(5, new int[] {}));
+        assertArrayEquals(new int[]{3, 4, 2, 1, 5}, test.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3}));
+        assertArrayEquals(new int[]{4, 1, 2, 3}, test.solution(4, new int[]{4, 4, 4, 4, 4}));
+        assertArrayEquals(new int[]{2, 1, 3, 4}, test.solution(4, new int[]{1, 1, 1, 1, 2}));
+        assertArrayEquals(new int[]{4, 2, 3, 1}, test.solution(4, new int[]{3, 2, 5, 4, 2}));
+        assertArrayEquals(new int[]{7, 6, 2, 3, 5, 4, 1}, test.solution(7, new int[]{2, 1, 2, 6, 2, 4, 3, 3, 7, 5}));
+        assertArrayEquals(new int[]{1, 2, 3, 4, 5}, test.solution(5, new int[]{}));
     }
 
 }

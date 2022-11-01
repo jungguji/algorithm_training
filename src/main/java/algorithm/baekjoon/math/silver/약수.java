@@ -13,7 +13,7 @@ public class 약수 {
 
         Arrays.sort(array);
 
-        System.out.println(array[0] * array[array.length-1]);
+        System.out.println(array[0] * array[array.length - 1]);
     }
 
     private static int[] convertStringArrayToIntegerArray(String[] args) {

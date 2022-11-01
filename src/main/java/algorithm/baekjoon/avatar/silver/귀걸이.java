@@ -13,15 +13,15 @@ public class 귀걸이 {
         List<String> result = new ArrayList<>();
 
         int n;
-        while ((n = Integer.parseInt(br.readLine()))!= 0) {
-            boolean[] array = new boolean[n+1];
+        while ((n = Integer.parseInt(br.readLine())) != 0) {
+            boolean[] array = new boolean[n + 1];
             List<String> names = new ArrayList<>();
 
             for (int i = 0; i < n; i++) {
                 names.add(br.readLine());
             }
 
-            for (int i = 0; i < (n*2)-1; i++) {
+            for (int i = 0; i < (n * 2) - 1; i++) {
                 String numberAndAB = br.readLine();
                 int number = Integer.parseInt(numberAndAB.split(" ")[0]);
 
@@ -30,14 +30,14 @@ public class 귀걸이 {
 
             for (int i = 0; i <= n; i++) {
                 if (array[i]) {
-                    result.add(names.get(i-1));
+                    result.add(names.get(i - 1));
                 }
             }
         }
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < result.size(); i++) {
-            sb.append(i+1).append(" ").append(result.get(i)).append("\n");
+            sb.append(i + 1).append(" ").append(result.get(i)).append("\n");
         }
 
         System.out.println(sb);

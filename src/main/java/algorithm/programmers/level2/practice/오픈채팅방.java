@@ -40,10 +40,10 @@ public class 오픈채팅방 {
         int i = 0;
         for (String[] array : list) {
             switch (array[0]) {
-                case ENTER :
+                case ENTER:
                     answer[i] = nickName.get(array[1]) + MESSAGE_ENTER;
                     break;
-                case LEAVE :
+                case LEAVE:
                     answer[i] = nickName.get(array[1]) + MESSAGE_LEAVE;
                     break;
             }

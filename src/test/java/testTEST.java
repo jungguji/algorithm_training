@@ -8,6 +8,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class testTEST implements TEST {
 
     private test test;
+
     @BeforeEach
     public void setup() {
         test = new test();

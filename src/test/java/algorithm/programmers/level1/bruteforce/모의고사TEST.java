@@ -6,20 +6,20 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class 모의고사TEST {
-    
+
     private 모의고사 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 모의고사();
     }
-    
+
     @Test
     public void solutionTest() {
-        int[] answers = {1,3,2,4,2};
-        int[] expecteds = {1,2,3};
+        int[] answers = {1, 3, 2, 4, 2};
+        int[] expecteds = {1, 2, 3};
         int[] actuals = test.solution(answers);
-        
+
         assertArrayEquals(expecteds, actuals);
     }
 }

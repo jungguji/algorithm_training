@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class 큰_수_만들기TEST implements TEST {
 
     private 큰_수_만들기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 큰_수_만들기();

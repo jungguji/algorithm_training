@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class 랜선_자르기 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int[] kn = convertStringArrayToIntegerArray(br.readLine().split(" "));
 
             int k = kn[0];
@@ -88,7 +88,7 @@ public class 랜선_자르기 {
             max = max < i ? i : max;
         }
 
-        return new int[] {min, max};
+        return new int[]{min, max};
     }
 
     private static int getLanCableCount(int[] lanCable, long front) {

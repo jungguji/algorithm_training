@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 
 public class 통계학 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());
 
             int sum = 0;

@@ -16,8 +16,8 @@ class 가장_큰_정사각형_찾기Test {
 
     @Test
     void solution() {
-        assertEquals(9, test.solution(new int[][]{{0,1,1,1} ,{1,1,1,1},{1,1,1,1},{0,0,1,0}}));
-        assertEquals(4, test.solution(new int[][]{{0,0,1,1} ,{1,1,1,1}}));
-        assertEquals(1, test.solution(new int[][]{{0,0,1,1}}));
+        assertEquals(9, test.solution(new int[][]{{0, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {0, 0, 1, 0}}));
+        assertEquals(4, test.solution(new int[][]{{0, 0, 1, 1}, {1, 1, 1, 1}}));
+        assertEquals(1, test.solution(new int[][]{{0, 0, 1, 1}}));
     }
 }

@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 거스름돈TEST implements TEST {
 
     private 거스름돈 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 거스름돈();

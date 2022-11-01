@@ -3,15 +3,15 @@ package algorithm.programmers.level1.practice;
 public class 키패드_누르기 {
     private static final String LEFT = "L";
     private static final String RIGHT = "R";
-    private static final int[][] KEYPAD = new int[][] {
+    private static final int[][] KEYPAD = new int[][]{
             {3, 1}, {0, 0}, {0, 1}, {0, 2}
             , {1, 0}, {1, 1}, {1, 2}
             , {2, 0}, {2, 1}, {2, 2}
     };
 
     public String solution(int[] numbers, String hand) {
-        int[] leftXY = {3,0};
-        int[] rightXY = {3,2};
+        int[] leftXY = {3, 0};
+        int[] rightXY = {3, 2};
 
         StringBuilder sb = new StringBuilder();
         for (int i : numbers) {
@@ -28,7 +28,7 @@ public class 키패드_누르기 {
                     rightXY = KEYPAD[i];
                     sb.append(RIGHT);
                     break;
-                case 2 :
+                case 2:
                 case 5:
                 case 8:
                 case 0:

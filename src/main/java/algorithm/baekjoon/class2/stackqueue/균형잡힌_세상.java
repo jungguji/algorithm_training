@@ -13,7 +13,7 @@ public class 균형잡힌_세상 {
     private static final char SMALL_BRACKET_RIGHT = ')';
 
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 
             String input = "";
 

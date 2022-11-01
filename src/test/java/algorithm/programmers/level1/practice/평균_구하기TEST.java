@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 평균_구하기TEST implements TEST {
 
     private 평균_구하기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 평균_구하기();
@@ -16,8 +16,8 @@ public class 평균_구하기TEST implements TEST {
 
     @Test
     public void solutionTest() {
-        assertEquals(2.5, test.solution(new int[] {1,2,3,4}));
-        assertEquals(5, test.solution(new int[] {5,5}));
+        assertEquals(2.5, test.solution(new int[]{1, 2, 3, 4}));
+        assertEquals(5, test.solution(new int[]{5, 5}));
     }
 
 }

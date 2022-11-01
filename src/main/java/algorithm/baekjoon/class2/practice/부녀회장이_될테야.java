@@ -39,7 +39,7 @@ public class 부녀회장이_될테야 {
     private static void setAptMoveIn(int layer, int room, int[][] apt) {
         for (int i = 1; i < layer; i++) {
             for (int j = 1; j < room; j++) {
-                apt[i][j] = apt[i-1][j] + apt[i][j-1];
+                apt[i][j] = apt[i - 1][j] + apt[i][j - 1];
             }
         }
     }

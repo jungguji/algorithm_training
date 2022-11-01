@@ -76,7 +76,7 @@ public class DFS_BFS {
         while (!queue.isEmpty()) {
             int current = queue.poll();
 
-            for (int i = 1; i <=n ; i++) {
+            for (int i = 1; i <= n; i++) {
                 if (!networks[current][i] || isVisit[i]) {
                     continue;
                 }

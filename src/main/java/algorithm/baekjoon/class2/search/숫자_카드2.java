@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class 숫자_카드2 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             br.readLine();
             int[] hand = convertStringArrayToIntegerArray(br.readLine().split(" "));
 

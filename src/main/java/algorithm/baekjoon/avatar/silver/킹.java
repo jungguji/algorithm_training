@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 
 public class 킹 {
     private static int[][] board = new int[8][8];
-    private static int[] ROW = new int[] {8,7,6,5,4,3,2,1};
-    private static String[] COLUMN = new String[] {"A", "B", "C", "D", "E", "F", "G", "H"};
+    private static int[] ROW = new int[]{8, 7, 6, 5, 4, 3, 2, 1};
+    private static String[] COLUMN = new String[]{"A", "B", "C", "D", "E", "F", "G", "H"};
     private static final int MOVE = 1;
     private static final int BACK_MOVE = -1;
 
@@ -27,7 +27,7 @@ public class 킹 {
             String command = br.readLine();
 
             switch (command) {
-                case "R" : {
+                case "R": {
                     if (isMove(kingPosition[1], MOVE)) {
                         break;
                     }
@@ -44,7 +44,7 @@ public class 킹 {
 
                     break;
                 }
-                case "L" : {
+                case "L": {
                     if (isMove(kingPosition[1], BACK_MOVE)) {
                         break;
                     }
@@ -61,7 +61,7 @@ public class 킹 {
 
                     break;
                 }
-                case "B" : {
+                case "B": {
                     if (isMove(kingPosition[0], MOVE)) {
                         break;
                     }
@@ -78,7 +78,7 @@ public class 킹 {
 
                     break;
                 }
-                case "T" : {
+                case "T": {
                     if (isMove(kingPosition[0], BACK_MOVE)) {
                         break;
                     }
@@ -97,7 +97,7 @@ public class 킹 {
                     break;
                 }
 
-                case "RT" : {
+                case "RT": {
                     if (isMove(kingPosition[1], MOVE)) {
                         break;
                     }
@@ -137,7 +137,7 @@ public class 킹 {
                     break;
                 }
 
-                case "LT" : {
+                case "LT": {
                     if (isMove(kingPosition[1], BACK_MOVE)) {
                         break;
                     }
@@ -177,7 +177,7 @@ public class 킹 {
                     break;
                 }
 
-                case "RB" : {
+                case "RB": {
                     if (isMove(kingPosition[1], MOVE)) {
                         break;
                     }
@@ -214,7 +214,7 @@ public class 킹 {
                     break;
                 }
 
-                case "LB" : {
+                case "LB": {
                     if (isMove(kingPosition[1], BACK_MOVE)) {
                         break;
                     }
@@ -273,6 +273,6 @@ public class 킹 {
         int x = args[0].charAt(0) - 65;
         int y = 7 - (Integer.parseInt(args[1]) - 1);
 
-        return new int[] {y,x};
+        return new int[]{y, x};
     }
 }

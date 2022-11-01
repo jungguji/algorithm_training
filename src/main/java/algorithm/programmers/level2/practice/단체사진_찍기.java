@@ -5,6 +5,7 @@ public class 단체사진_찍기 {
     private static final String[] PEOPLE_NAMES = {"A", "C", "F", "J", "M", "N", "R", "T"};
 
     private static int answer;
+
     public int solution(int n, String[] data) {
         answer = 0;
         perm("", 0, new boolean[8], data);

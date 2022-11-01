@@ -24,7 +24,7 @@ public class 뉴스_클러스터링 {
     private List<String> getMultipleSetsList(char[] args) {
         List<String> list = new ArrayList<>();
         for (int i = 1; i < args.length; i++) {
-            String value = new StringBuilder().append(args[i-1]).append(args[i]).toString();
+            String value = new StringBuilder().append(args[i - 1]).append(args[i]).toString();
             if (Pattern.matches(ONLY_ENGLISH, value)) {
                 list.add(value.toUpperCase());
             }
@@ -63,7 +63,7 @@ public class 뉴스_클러스터링 {
         }
 
         int answer = (int) Math.floor((intersection / union) * MULTIPLY_VALUE);
-        return  answer;
+        return answer;
     }
 
     private double[] swap(double intersection, double union) {
@@ -73,6 +73,6 @@ public class 뉴스_클러스터링 {
             intersection = union;
             union = temp;
         }
-        return new double[] {intersection, union};
+        return new double[]{intersection, union};
     }
 }

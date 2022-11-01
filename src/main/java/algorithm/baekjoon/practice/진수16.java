@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class 진수16 {
     public static void main(String[] args) throws IOException {
-        String input  = getInputData(System.in);
+        String input = getInputData(System.in);
 
         System.out.println(Integer.parseInt(input, 16));
     }

@@ -55,7 +55,7 @@ public class 미로탐색 {
         while (true) {
             Position currentPosition = queue.poll();
             count = moves.poll();
-            if (currentPosition.x == n-1 && currentPosition.y == m-1) {
+            if (currentPosition.x == n - 1 && currentPosition.y == m - 1) {
                 break;
             }
 

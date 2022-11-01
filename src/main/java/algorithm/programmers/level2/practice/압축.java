@@ -52,7 +52,7 @@ public class 압축 {
                     value = indexMap.get(key);
                     jump++;
 
-                    if (j +1 == arrayLength) {
+                    if (j + 1 == arrayLength) {
                         answer.add(value);
                         i += jump;
                     }

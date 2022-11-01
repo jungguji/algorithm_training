@@ -7,14 +7,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class 문자열_다루기_기본TEST implements TEST {
-    
+
     private 문자열_다루기_기본 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 문자열_다루기_기본();
     }
-    
+
     @Test
     public void solutionTest() {
         assertFalse(test.solution("a234"));

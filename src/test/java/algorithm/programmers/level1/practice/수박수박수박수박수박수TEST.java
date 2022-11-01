@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 수박수박수박수박수박수TEST implements TEST {
 
     private 수박수박수박수박수박수 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 수박수박수박수박수박수();

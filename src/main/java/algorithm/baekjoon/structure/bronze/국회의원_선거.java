@@ -13,7 +13,7 @@ public class 국회의원_선거 {
 
         LinkedList<Integer> queue = new LinkedList<>();
         int dasom = Integer.parseInt(br.readLine());
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             int input = Integer.parseInt(br.readLine());
 
             queue.offer(input);
@@ -27,7 +27,7 @@ public class 국회의원_선거 {
                 queue.poll();
             }
 
-            queue.offer((queue.pollLast()-1));
+            queue.offer((queue.pollLast() - 1));
             dasom++;
 
             Collections.sort(queue);

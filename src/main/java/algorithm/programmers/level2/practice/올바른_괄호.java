@@ -10,10 +10,10 @@ public class 올바른_괄호 {
         Stack<Character> stack = new Stack<Character>();
         for (char c : tochar) {
             switch (c) {
-                case '(' :
+                case '(':
                     stack.push(c);
                     break;
-                case ')' :
+                case ')':
                     if (stack.isEmpty()) {
                         answer = false;
                         break;

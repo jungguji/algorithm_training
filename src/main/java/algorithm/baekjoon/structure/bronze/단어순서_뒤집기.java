@@ -18,7 +18,7 @@ public class 단어순서_뒤집기 {
                 sentence.append(inputs[j]).append(" ");
             }
 
-            sb.append("Case #").append(i+1).append(": ").append(sentence.toString()).append("\n");
+            sb.append("Case #").append(i + 1).append(": ").append(sentence.toString()).append("\n");
         }
 
         System.out.println(sb);

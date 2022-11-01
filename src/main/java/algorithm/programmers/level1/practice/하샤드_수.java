@@ -9,7 +9,7 @@ public class 하샤드_수 {
             sum += (x % 10);
             x /= 10;
         }
-        
+
         return n % sum == 0;
     }
 }

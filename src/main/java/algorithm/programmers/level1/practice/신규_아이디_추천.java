@@ -26,7 +26,7 @@ public class 신규_아이디_추천 {
         char[] array = id.toCharArray();
         for (char ch : array) {
             if ((ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9')
-            || ch == '-' || ch == '_' || ch == '.') {
+                    || ch == '-' || ch == '_' || ch == '.') {
                 changeId.append(ch);
             }
         }
@@ -47,7 +47,7 @@ public class 신규_아이디_추천 {
         }
 
         int startIndex = start ? 1 : 0;
-        int endIndex = end ? id.length()-1 : id.length();
+        int endIndex = end ? id.length() - 1 : id.length();
 
         char[] array = id.toCharArray();
 
@@ -64,7 +64,7 @@ public class 신규_아이디_추천 {
             id = "a";
         }
 
-        char endChar = id.charAt(id.length()-1);
+        char endChar = id.charAt(id.length() - 1);
 
         while (id.length() <= 2) {
             id += endChar;

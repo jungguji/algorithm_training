@@ -24,7 +24,7 @@ public class 아주대학교_경시대회S {
 
         sort(persons);
 
-        System.out.println(persons.get(persons.size()-1).position);
+        System.out.println(persons.get(persons.size() - 1).position);
     }
 
     private static int[] convertStringArrayToIntegerArray(String[] args) {

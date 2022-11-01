@@ -28,7 +28,7 @@ public class 좌표_압축 {
 
         StringBuilder sb = new StringBuilder();
         for (int i : array) {
-             sb.append(map.get(i)).append(" ");
+            sb.append(map.get(i)).append(" ");
         }
 
         System.out.println(sb.toString());

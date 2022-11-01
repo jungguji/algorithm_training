@@ -32,7 +32,7 @@ public class 가로수 {
 
         int gcd = Integer.MAX_VALUE;
         for (int i = 1; i < differences.size(); i++) {
-            int temp = gcd(differences.get(i-1), differences.get(i));
+            int temp = gcd(differences.get(i - 1), differences.get(i));
             gcd = temp > gcd ? gcd : temp;
         }
 
@@ -49,6 +49,6 @@ public class 가로수 {
     }
 
     private static int gcd(int a, int b) {
-        return b!=0 ? gcd(b, a%b) : a;
+        return b != 0 ? gcd(b, a % b) : a;
     }
 }

@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Queue;
 
 public class 단지번호붙이기 {
-    final static int[] TOP_BOT = new int[] {-1, 1, 0, 0};
-    final static int[] LEFT_RIGHT = new int[] {0, 0, -1, 1};
+    final static int[] TOP_BOT = new int[]{-1, 1, 0, 0};
+    final static int[] LEFT_RIGHT = new int[]{0, 0, -1, 1};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -63,7 +63,7 @@ public class 단지번호붙이기 {
     private static int bfs(int x, int y, int[][] complex, boolean[][] passed) {
         Queue<Position> queue = new LinkedList<Position>();
 
-        queue.offer(new Position(x,y));
+        queue.offer(new Position(x, y));
         passed[x][y] = true;
 
         Queue<Integer> area = new LinkedList<Integer>();
@@ -76,11 +76,11 @@ public class 단지번호붙이기 {
                 int moveX = TOP_BOT[i] + current.x;
                 int moveY = LEFT_RIGHT[i] + current.y;
 
-                if (!isValidation(moveX,moveY, complex, passed) ) {
+                if (!isValidation(moveX, moveY, complex, passed)) {
                     continue;
                 }
 
-                queue.offer(new Position(moveX,moveY));
+                queue.offer(new Position(moveX, moveY));
                 passed[moveX][moveY] = true;
                 count++;
             }

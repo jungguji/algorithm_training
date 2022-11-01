@@ -1,7 +1,8 @@
 package algorithm.programmers.level2.practice;
 
 public class n진수_게임 {
-    private static final String[] ABCDEF = new String[] {"A","B","C","D","E","F"};
+    private static final String[] ABCDEF = new String[]{"A", "B", "C", "D", "E", "F"};
+
     public String solution(int n, int t, int m, int p) {
 
         int limit = t * m;
@@ -32,9 +33,9 @@ public class n진수_게임 {
 
     public char[] changeDecimal(int currentNumber, int n) {
         StringBuilder sb = new StringBuilder();
-        while(currentNumber > 0) {
+        while (currentNumber > 0) {
             int remain = currentNumber % n;
-            sb.append(remain >= 10 ? ABCDEF[remain-10] : remain);
+            sb.append(remain >= 10 ? ABCDEF[remain - 10] : remain);
             currentNumber /= n;
         }
 

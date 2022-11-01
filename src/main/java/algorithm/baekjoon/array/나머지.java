@@ -8,6 +8,7 @@ import java.util.Set;
 
 public class 나머지 {
     private static final int AMOUNT = 10;
+
     public static void main(String[] args) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             Set<Integer> set = new HashSet<>();

@@ -12,7 +12,7 @@ public class 스택_수열 {
     private static final String ENTER = "\n";
 
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());
 
             LinkedList<Integer> sequence = initSequence(br, amount);

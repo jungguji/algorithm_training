@@ -8,6 +8,7 @@ import java.util.List;
 
 public class 백설공주와_일곱난쟁이 {
     private static final int MAX = 9;
+
     public static void main(String[] args) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             List<Integer> dwarfs = new ArrayList<>();

@@ -39,7 +39,7 @@ public class 가장_큰_정사각형_찾기 {
                     continue;
                 }
 
-                board[i][j] = Math.min(board[i-1][j-1], Math.min(board[i-1][j], board[i][j-1])) + 1;
+                board[i][j] = Math.min(board[i - 1][j - 1], Math.min(board[i - 1][j], board[i][j - 1])) + 1;
 
                 if (board[i][j] > answer) {
                     answer = board[i][j];

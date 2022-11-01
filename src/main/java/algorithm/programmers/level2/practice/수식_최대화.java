@@ -43,7 +43,7 @@ public class 수식_최대화 {
 
         numberList.add(Long.valueOf(sb.toString()));
 
-        return new Object[] {numberList, operatorList};
+        return new Object[]{numberList, operatorList};
     }
 
     private char[] getExpressionIncludeOperators(List<Character> operatorList) {
@@ -122,8 +122,8 @@ public class 수식_최대화 {
                 numberStack.push(first);
                 numberQueue.offer(first);
 
-                Stack[] stacks = new Stack[] {numberStack, operatorStack};
-                LinkedList[] queues = new LinkedList[] {numberQueue, operatorQueue};
+                Stack[] stacks = new Stack[]{numberStack, operatorStack};
+                LinkedList[] queues = new LinkedList[]{numberQueue, operatorQueue};
 
                 calculatePriority(stacks, queues, operatorToCalculate);
             }
@@ -170,13 +170,13 @@ public class 수식_최대화 {
         long sum = 0;
 
         switch (op) {
-            case '*' :
+            case '*':
                 sum = n2 * n1;
                 break;
-            case '+' :
+            case '+':
                 sum = n2 + n1;
                 break;
-            case '-' :
+            case '-':
                 sum = n2 - n1;
                 break;
         }

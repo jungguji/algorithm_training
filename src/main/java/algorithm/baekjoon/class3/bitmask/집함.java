@@ -26,17 +26,17 @@ public class 집함 {
             Integer x = Integer.parseInt(ALL.equals(command) || EMPTY.equals(command) ? "0" : commandAndx[1]);
 
             switch (command) {
-                case ADD :
+                case ADD:
                     if (!isContains(linkedList, x)) {
                         linkedList.add(x);
                     }
                     break;
-                case REMOVE :
+                case REMOVE:
                     if (isContains(linkedList, x)) {
                         linkedList.remove(x);
                     }
                     break;
-                case CHECK :
+                case CHECK:
                     if (isContains(linkedList, x)) {
                         sb.append(1);
                     } else {
@@ -44,21 +44,21 @@ public class 집함 {
                     }
                     sb.append("\n");
                     break;
-                case TOGGLE :
+                case TOGGLE:
                     if (isContains(linkedList, x)) {
                         linkedList.remove(x);
                     } else {
                         linkedList.add(x);
                     }
                     break;
-                case ALL :
+                case ALL:
                     for (int i = 1; i < 21; i++) {
                         if (!isContains(linkedList, i)) {
                             linkedList.add(i);
                         }
                     }
                     break;
-                case EMPTY :
+                case EMPTY:
                     linkedList.removeAll(linkedList);
                     break;
             }

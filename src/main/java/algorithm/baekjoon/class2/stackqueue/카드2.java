@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 public class 카드2 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int value = Integer.parseInt(br.readLine());
 
             LinkedList<Integer> queue = new LinkedList<>();

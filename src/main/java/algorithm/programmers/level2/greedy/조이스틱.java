@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 조이스틱 {
-    
+
     private static final int A_ASCII = 65;
-    
+
     public int solution(String name) {
         char[] toChar = name.toCharArray();
-        
+
         int answer = getUpDownCount(toChar);
-        
+
         int[] serialIndex = getLongestSerialIndex(toChar);
-        
+
         int leftRightCursur = getLeftRightCount(serialIndex[0], serialIndex[1], toChar.length);
-        
+
         answer += leftRightCursur;
-        
+
         return answer;
     }
 
@@ -34,16 +34,16 @@ public class 조이스틱 {
 
         return count;
     }
-    
+
     private int[] getLongestSerialIndex(char[] array) {
         List<Serial> list = getSerialList(array);
-        
+
         Serial serial = getMaxCountSerial(list);
-        
+
         int[] result = new int[2];
         result[0] = serial.index;
         result[1] = serial.index + serial.count;
-        
+
         return result;
     }
 
@@ -60,7 +60,7 @@ public class 조이스틱 {
             if (count == 0) {
                 list.add(new Serial(i, 1));
             } else {
-                list.get(list.size()-1).count = (count+1);
+                list.get(list.size() - 1).count = (count + 1);
             }
 
             count++;
@@ -98,14 +98,15 @@ public class 조이스틱 {
 
         return leftRightCursur;
     }
-    
+
     class Serial {
-        
+
         private int index;
         private int count;
-        
-        public Serial() {}
-        
+
+        public Serial() {
+        }
+
         public Serial(int index, int count) {
             this.index = index;
             this.count = count;

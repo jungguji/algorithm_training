@@ -27,17 +27,17 @@ public class 에디터 {
             String command = br.readLine();
 
             switch (command) {
-                case "L" :
+                case "L":
                     if (it.hasPrevious()) {
                         it.previous();
                     }
                     break;
-                case "D" :
+                case "D":
                     if (it.hasNext()) {
                         it.next();
                     }
                     break;
-                case "B" :
+                case "B":
                     if (it.hasPrevious() && !list.isEmpty()) {
                         it.previous();
                         it.remove();

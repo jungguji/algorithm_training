@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 public class 직사각형_별찍기TEST implements TEST {
 
     private 직사각형_별찍기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 직사각형_별찍기();
@@ -15,7 +15,7 @@ public class 직사각형_별찍기TEST implements TEST {
 
     @Test
     public void solutionTest() {
-        
+
     }
 
 }

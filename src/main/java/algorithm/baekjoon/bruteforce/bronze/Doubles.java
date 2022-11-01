@@ -33,7 +33,7 @@ public class Doubles {
         int i = 0;
         for (String str : args) {
             if (!"0".equals(str))
-            array.add(Integer.parseInt(str));
+                array.add(Integer.parseInt(str));
         }
 
         return array;

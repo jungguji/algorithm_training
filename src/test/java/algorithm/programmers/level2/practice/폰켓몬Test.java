@@ -16,8 +16,8 @@ class 폰켓몬Test {
 
     @Test
     void solution() {
-        assertEquals(2, test.solution(new int[]{3,1,2,3}));
-        assertEquals(3, test.solution(new int[]{3,3,3,2,2,4}));
-        assertEquals(2, test.solution(new int[]{3,3,3,2,2,2}));
+        assertEquals(2, test.solution(new int[]{3, 1, 2, 3}));
+        assertEquals(3, test.solution(new int[]{3, 3, 3, 2, 2, 4}));
+        assertEquals(2, test.solution(new int[]{3, 3, 3, 2, 2, 2}));
     }
 }

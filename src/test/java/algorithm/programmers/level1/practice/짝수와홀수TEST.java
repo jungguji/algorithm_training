@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 짝수와홀수TEST implements TEST {
 
     private 짝수와홀수 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 짝수와홀수();

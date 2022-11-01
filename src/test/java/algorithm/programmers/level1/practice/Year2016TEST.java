@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 
 public class Year2016TEST {
     private Year2016 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new Year2016();
     }
-    
+
     @Test
     public void solutionTest() {
         assertEquals("FRI", test.solution(1, 1));

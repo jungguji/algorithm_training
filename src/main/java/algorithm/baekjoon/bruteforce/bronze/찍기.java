@@ -65,9 +65,9 @@ public class 찍기 {
         private Integer count;
         private char[] sequence;
 
-        private static char[] ADRIAN = new char[] {'A','B','C'};
-        private static char[] BRUNO = new char[] {'B','A','B','C'};
-        private static char[] GORAN = new char[] {'C','C','A','A','B','B'};
+        private static char[] ADRIAN = new char[]{'A', 'B', 'C'};
+        private static char[] BRUNO = new char[]{'B', 'A', 'B', 'C'};
+        private static char[] GORAN = new char[]{'C', 'C', 'A', 'A', 'B', 'B'};
 
         public Person(String name, Integer index, Integer count) {
             this.name = name;

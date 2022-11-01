@@ -22,7 +22,7 @@ public class 유기농_배추 {
                 area[xy[0]][xy[1]] = 1;
             }
 
-             sb.append(solution(area)).append("\n");
+            sb.append(solution(area)).append("\n");
         }
 
         System.out.println(sb);
@@ -41,14 +41,14 @@ public class 유기농_배추 {
     public static int solution(int[][] area) {
         boolean[][] isVisit = new boolean[area.length][area[0].length];
 
-        int answer = 0 ;
+        int answer = 0;
         for (int i = 0; i < area.length; i++) {
             for (int j = 0; j < area[0].length; j++) {
                 if (area[i][j] == 0 || isVisit[i][j]) {
                     continue;
                 }
 
-                answer += bfs(area, isVisit, new int[] {i,j});
+                answer += bfs(area, isVisit, new int[]{i, j});
             }
         }
         return answer;
@@ -60,8 +60,8 @@ public class 유기농_배추 {
         setVisitAndQueue(isVisit, queue, xy[0], xy[1]);
 
         while (!queue.isEmpty()) {
-            int[] x = new int[] {-1, 1, 0, 0};
-            int[] y = new int[] {0, 0, 1, -1};
+            int[] x = new int[]{-1, 1, 0, 0};
+            int[] y = new int[]{0, 0, 1, -1};
             int[] currentXY = queue.poll();
 
             for (int i = 0; i < x.length; i++) {
@@ -84,7 +84,7 @@ public class 유기농_배추 {
     }
 
     private static void setVisitAndQueue(boolean[][] isVisit, Queue<int[]> queue, int x, int y) {
-        queue.offer(new int[] {x, y});
+        queue.offer(new int[]{x, y});
         isVisit[x][y] = true;
     }
 }

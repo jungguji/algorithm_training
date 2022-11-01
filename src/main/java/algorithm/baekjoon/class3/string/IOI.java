@@ -32,7 +32,7 @@ public class IOI {
                     answer++;
                 }
             } else {
-                if  (m == 0) {
+                if (m == 0) {
                     start++;
                 } else {
                     start += (m - fail[m - 1]);

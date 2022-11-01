@@ -27,7 +27,7 @@ public class 회사에_있는_사람 {
                 .collect(Collectors.toList());
 
         StringBuilder sb = new StringBuilder();
-        for (int i = entries.size()-1; i > -1; i--) {
+        for (int i = entries.size() - 1; i > -1; i--) {
             Map.Entry<String, String> entry = entries.get(i);
             sb.append(entry.getKey()).append("\n");
         }

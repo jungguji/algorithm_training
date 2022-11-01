@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 핸드폰_번호_가리기TEST implements TEST {
 
     private 핸드폰_번호_가리기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 핸드폰_번호_가리기();

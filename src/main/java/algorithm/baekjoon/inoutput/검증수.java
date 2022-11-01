@@ -11,7 +11,7 @@ public class 검증수 {
 
         int sum = getSum(array);
 
-        System.out.println(sum%10);
+        System.out.println(sum % 10);
 
     }
 

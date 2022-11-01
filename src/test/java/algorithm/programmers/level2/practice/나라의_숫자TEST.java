@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class 나라의_숫자TEST implements TEST {
 
     private 나라의_숫자 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 나라의_숫자();

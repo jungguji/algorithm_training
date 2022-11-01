@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 콜라츠_추측TEST implements TEST {
 
     private 콜라츠_추측 test;
+
     @BeforeEach
     public void setup() {
         test = new 콜라츠_추측();

@@ -16,35 +16,35 @@ class DNATest {
 
     @Test
     public void solutionTest() {
-        String[] array = new String[] {
+        String[] array = new String[]{
                 "TATGATAC"
-                ,"TAAGCTAC"
-                ,"AAAGATCC"
-                ,"TGAGATAC"
-                ,"TAAGATGT"
+                , "TAAGCTAC"
+                , "AAAGATCC"
+                , "TGAGATAC"
+                , "TAAGATGT"
         };
 
-        assertArrayEquals(new String[] {"TAAGATAC", "7"}, test.solution(5,8, array));
+        assertArrayEquals(new String[]{"TAAGATAC", "7"}, test.solution(5, 8, array));
 
-        array = new String[] {
+        array = new String[]{
                 "ACGTACGTAC"
-                ,"CCGTACGTAG"
-                ,"GCGTACGTAT"
-                ,"TCGTACGTAA"
+                , "CCGTACGTAG"
+                , "GCGTACGTAT"
+                , "TCGTACGTAA"
         };
 
-        assertArrayEquals(new String[] {"ACGTACGTAA", "6"}, test.solution(4, 10, array));
+        assertArrayEquals(new String[]{"ACGTACGTAA", "6"}, test.solution(4, 10, array));
 
-        array = new String[] {
+        array = new String[]{
                 "ATGTTACCAT"
-                ,"AAGTTACGAT"
-                ,"AACAAAGCAA"
-                ,"AAGTTACCTT"
-                ,"AAGTTACCAA"
-                ,"TACTTACCAA"
+                , "AAGTTACGAT"
+                , "AACAAAGCAA"
+                , "AAGTTACCTT"
+                , "AAGTTACCAA"
+                , "TACTTACCAA"
         };
 
-        assertArrayEquals(new String[] {"AAGTTACCAA", "12"}, test.solution(6, 10, array));
+        assertArrayEquals(new String[]{"AAGTTACCAA", "12"}, test.solution(6, 10, array));
         array = new String[]{
                 "AAA"
                 , "AAA"
@@ -54,6 +54,6 @@ class DNATest {
                 , "BBB"
         };
 
-        assertArrayEquals(new String[] {"AAA", "9"}, test.solution(6, 3, array));
+        assertArrayEquals(new String[]{"AAA", "9"}, test.solution(6, 3, array));
     }
 }

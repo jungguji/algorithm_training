@@ -17,14 +17,14 @@ public class 명령_프롬프트 {
         }
 
         for (int i = 0; i < commands.get(0).length; i++) {
-             char first = commands.get(0)[i];
+            char first = commands.get(0)[i];
 
-             for (int j = 1; j < commands.size(); j++) {
-                 if (first != commands.get(j)[i]) {
-                     commands.get(0)[i] = '?';
-                     break;
-                 }
-             }
+            for (int j = 1; j < commands.size(); j++) {
+                if (first != commands.get(j)[i]) {
+                    commands.get(0)[i] = '?';
+                    break;
+                }
+            }
         }
 
         System.out.println(commands.get(0));

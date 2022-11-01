@@ -16,7 +16,7 @@ class 소수_만들기Test {
 
     @Test
     void solution() {
-        assertEquals(1, test.solution(new int[] {1,2,3,4}));
-        assertEquals(4, test.solution(new int[] {1,2,7,6,4}));
+        assertEquals(1, test.solution(new int[]{1, 2, 3, 4}));
+        assertEquals(4, test.solution(new int[]{1, 2, 7, 6, 4}));
     }
 }

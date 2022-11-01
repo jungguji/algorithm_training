@@ -11,7 +11,7 @@ public class Hashing {
     private static int M = 1234567891;
 
     public static void main(String[] args) throws IOException {
-        String input  = getInputData(System.in);
+        String input = getInputData(System.in);
 
         long answer = solution(input);
 

@@ -22,7 +22,7 @@ public class 나는야_포켓몬_마스터_이다솜 {
             for (int i = 0; i < nm[1]; i++) {
                 String name = br.readLine();
                 sb.append(dictionary.get(name))
-                .append("\n");
+                        .append("\n");
             }
 
             System.out.println(sb);

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public interface TEST {
     @BeforeEach
     public void setup();
-    
+
     @Test
     public void solutionTest();
 }

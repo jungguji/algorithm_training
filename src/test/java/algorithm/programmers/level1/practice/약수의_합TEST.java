@@ -6,14 +6,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class 약수의_합TEST implements TEST {
-    
+
     private 약수의_합 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 약수의_합();
     }
-    
+
     @Test
     public void solutionTest() {
 //        assertEquals(28, test.solution(12));

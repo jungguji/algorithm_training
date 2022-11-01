@@ -40,7 +40,7 @@ public class 이항_계수1 {
 
     private static void f(int value, int[] f) {
         for (int i = 2; i <= value; i++) {
-            f[i] = i * f[i-1];
+            f[i] = i * f[i - 1];
         }
     }
 }

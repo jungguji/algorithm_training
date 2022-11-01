@@ -11,10 +11,10 @@ public class 구간_합_구하기_4 {
 
         int[] array = convertStringArrayToIntegerArray(br.readLine().split(" "));
 
-        int[] preSum = new int[nm[0]+1];
+        int[] preSum = new int[nm[0] + 1];
 
         for (int i = 1; i <= array.length; i++) {
-            preSum[i] = preSum[i-1] + array[i-1];
+            preSum[i] = preSum[i - 1] + array[i - 1];
         }
 
         StringBuilder sb = new StringBuilder();

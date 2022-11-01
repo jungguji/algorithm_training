@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class 우유_축제 {
-    private static final int[] PATTERN = new int[] {0,1,2};
+    private static final int[] PATTERN = new int[]{0, 1, 2};
 
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             br.readLine();
             int[] stores = convertStringArrayToIntegerArray(br.readLine().split(" "));
 

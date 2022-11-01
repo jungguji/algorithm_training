@@ -73,7 +73,7 @@ public class 숫자야구 {
 
         ball -= strike;
 
-        return new int[] {strike, ball};
+        return new int[]{strike, ball};
     }
 
     private boolean isBall(char[] requestBall, char number) {

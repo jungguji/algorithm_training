@@ -15,10 +15,10 @@ public class 임진왜란 {
         StringBuilder sb = new StringBuilder();
         int next = 1;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n-i; j++) {
+            for (int j = 0; j < n - i; j++) {
                 sb.append(personAnswer[j]).append(" ");
 
-                for (int k = j+1; k <= next;  k++) {
+                for (int k = j + 1; k <= next; k++) {
                     sb.append(personAnswer[k]);
                 }
 

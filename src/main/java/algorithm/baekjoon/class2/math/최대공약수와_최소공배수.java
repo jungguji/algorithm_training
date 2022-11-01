@@ -46,6 +46,6 @@ public class 최대공약수와_최소공배수 {
             m = r;
         }
 
-        return new int[] {n, n * (big / n) * (small / n)};
+        return new int[]{n, n * (big / n) * (small / n)};
     }
 }

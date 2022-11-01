@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 public class 문자열_내_P와_y의_개수TEST implements TEST {
 
     private 문자열_내_P와_y의_개수 test;
+
     @BeforeEach
     public void setup() {
         test = new 문자열_내_P와_y의_개수();

@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 문자열_압축TEST implements TEST {
 
     private 문자열_압축 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 문자열_압축();

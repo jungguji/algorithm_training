@@ -9,7 +9,7 @@ public class R2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[] r1s = convertStringArrayToIntegerArray(br.readLine().split(" "));
-        
+
         System.out.println(r1s[1] * 2 - r1s[0]);
     }
 

@@ -51,7 +51,7 @@ public class 마인크래프트 {
             }
         }
 
-        return new int[] {min, max};
+        return new int[]{min, max};
     }
 
     private static int[] getMinimumConstructionTime(int[][] ground, int inventory, int min, int max) {

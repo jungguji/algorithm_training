@@ -7,7 +7,7 @@ import java.util.Stack;
 
 public class 제로 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());
 
             Stack<Integer> stack = new Stack<>();

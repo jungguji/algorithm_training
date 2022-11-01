@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 public class 프린터_큐 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());
 
             StringBuilder sb = new StringBuilder();
@@ -63,7 +63,7 @@ public class 프린터_큐 {
         LinkedList<Integer[]> printer = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
-            printer.offer(new Integer[] {i, importance[i]});
+            printer.offer(new Integer[]{i, importance[i]});
         }
 
         return printer;

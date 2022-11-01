@@ -48,7 +48,7 @@ public class 종이의_개수 {
 
         dac(n, 0, 0, board, map);
 
-        return new int[] {map.get(RED), map.get(WHITE), map.get(BLUE)};
+        return new int[]{map.get(RED), map.get(WHITE), map.get(BLUE)};
     }
 
     private static void dac(int n, int x, int y, int[][] board, Map<String, Integer> map) {
@@ -74,7 +74,7 @@ public class 종이의_개수 {
             map.put(BLUE, map.get(BLUE) + 1);
         } else if (red == n * n) {
             map.put(RED, map.get(RED) + 1);
-        }else {
+        } else {
             int div = n / 3;
 
             for (int i = 0; i < n; i += div) {

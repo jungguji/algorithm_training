@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 쇠막대기TEST implements TEST {
 
     private 쇠막대기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 쇠막대기();

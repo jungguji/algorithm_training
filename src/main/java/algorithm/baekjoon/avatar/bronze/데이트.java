@@ -42,16 +42,16 @@ public class 데이트 {
         int[] love = new int[4];
         for (char ch : name) {
             switch (ch) {
-                case 'L' :
+                case 'L':
                     love[0] += 1;
                     break;
-                case 'O' :
+                case 'O':
                     love[1] += 1;
                     break;
-                case 'V' :
+                case 'V':
                     love[2] += 1;
                     break;
-                case 'E' :
+                case 'E':
                     love[3] += 1;
                     break;
             }

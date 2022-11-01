@@ -14,7 +14,7 @@ public class 연결_요소의_개수 {
         int n = nm[0];
         int m = nm[1];
 
-        boolean[][] graph = new boolean[n+1][n+1];
+        boolean[][] graph = new boolean[n + 1][n + 1];
         while (m-- > 0) {
             int[] xy = convertStringArrayToIntegerArray(br.readLine().split(" "));
 
@@ -24,7 +24,7 @@ public class 연결_요소의_개수 {
 
         int answer = 0;
 
-        boolean[] isVisit = new boolean[n+1];
+        boolean[] isVisit = new boolean[n + 1];
         for (int i = 1; i < graph.length; i++) {
             if (!isVisit[i]) {
                 answer += bfs(isVisit, graph, i);
@@ -44,7 +44,7 @@ public class 연결_요소의_개수 {
         return array;
     }
 
-    private static int bfs(boolean[] isVisit, boolean[][] graph,int startIndex) {
+    private static int bfs(boolean[] isVisit, boolean[][] graph, int startIndex) {
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(startIndex);
         isVisit[startIndex] = true;

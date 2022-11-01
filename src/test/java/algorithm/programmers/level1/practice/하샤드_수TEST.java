@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class 하샤드_수TEST implements TEST {
 
     private 하샤드_수 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 하샤드_수();

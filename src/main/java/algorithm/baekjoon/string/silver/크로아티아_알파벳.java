@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class 크로아티아_알파벳 {
-    private static final String[] CROATIA = new String[] {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
+    private static final String[] CROATIA = new String[]{"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             String input = br.readLine();
 
             int answer = 0;

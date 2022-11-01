@@ -16,7 +16,7 @@ public class 캥거루_세마리2 {
                 int min = Math.min(array[0], Math.min(array[1], array[2]));
                 int mid = getCenterValue(array);
 
-                System.out.println(Math.max(max-mid, mid-min) - 1);
+                System.out.println(Math.max(max - mid, mid - min) - 1);
             }
         }
     }

@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 멀쩡한_사각형TEST implements TEST {
 
     private 멀쩡한_사각형 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 멀쩡한_사각형();

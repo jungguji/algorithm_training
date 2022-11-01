@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 두_정수_사이의_합TEST implements TEST {
 
     private 두_정수_사이의_합 test;
+
     @BeforeEach
     public void setup() {
         test = new 두_정수_사이의_합();

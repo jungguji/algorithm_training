@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 단어의_개수TEST implements TEST {
 
     private 단어의_개수 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 단어의_개수();

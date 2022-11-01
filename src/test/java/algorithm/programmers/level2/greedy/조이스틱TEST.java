@@ -10,7 +10,7 @@ import algorithm.programmers.level1.practice.TEST;
 public class 조이스틱TEST implements TEST {
 
     private 조이스틱 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 조이스틱();

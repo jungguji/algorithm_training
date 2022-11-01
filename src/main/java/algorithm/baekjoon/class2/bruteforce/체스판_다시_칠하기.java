@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class 체스판_다시_칠하기 {
-    private static final char[] BW = new char[] {'B', 'W'};
+    private static final char[] BW = new char[]{'B', 'W'};
 
     public static void main(String[] args) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
@@ -102,14 +102,14 @@ public class 체스판_다시_칠하기 {
     }
 
     private static int getCheckerboardSwapCount(int x, int y, char[][] copy) {
-        int change = 0 ;
+        int change = 0;
 
         for (int i = x; i < 8 + x; i++) {
             for (int j = y + 1; j < 8 + y; j++) {
                 if (copy[i][j - 1] == copy[i][j]) {
                     ++change;
 
-                    copy[i][j] = (copy[i][j - 1] =='B') ? 'W' : 'B';
+                    copy[i][j] = (copy[i][j - 1] == 'B') ? 'W' : 'B';
                 }
             }
         }

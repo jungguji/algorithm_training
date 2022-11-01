@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 소수_찾기TEST implements TEST {
 
     private 소수_찾기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 소수_찾기();

@@ -32,7 +32,7 @@ public class 단어공부 {
                 map.put(ch, 0);
             }
 
-            map.put(ch, map.get(ch)+1);
+            map.put(ch, map.get(ch) + 1);
         }
 
         return map;

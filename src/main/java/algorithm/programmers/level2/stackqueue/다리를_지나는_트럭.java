@@ -49,7 +49,7 @@ public class 다리를_지나는_트럭 {
     class Truck {
         public int position;
         public int weight;
-        
+
         public Truck(int position, int weight) {
             this.position = position;
             this.weight = weight;

@@ -18,7 +18,7 @@ public class 덱 {
     private static final String DEQUE_EMPTY_VALUE = "-1";
 
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 
             int amount = Integer.parseInt(br.readLine());
 

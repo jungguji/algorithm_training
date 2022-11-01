@@ -11,7 +11,7 @@ public class 카펫 {
                 int y = sum - x;
 
                 if (brown == x && yellow == y) {
-                    answer = new int[] {sum / i, i};
+                    answer = new int[]{sum / i, i};
                     break;
                 }
             }

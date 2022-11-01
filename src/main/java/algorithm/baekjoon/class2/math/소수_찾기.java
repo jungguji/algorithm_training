@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class 소수_찾기 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             br.readLine();
             int[] numbers = convertStringArrayToIntegerArray(br.readLine().split(" "));
 

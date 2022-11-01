@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class 나무_자르기 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             long[] nm = convertStringArrayToLongArray(br.readLine().split(" "));
 
             long m = nm[1];

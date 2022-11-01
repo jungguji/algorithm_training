@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class A_B8 {
     private static final String PREFIX = "Case #";
+
     public static void main(String[] args) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int amount = Integer.parseInt(br.readLine());

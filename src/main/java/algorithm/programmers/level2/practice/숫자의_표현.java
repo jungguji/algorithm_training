@@ -18,7 +18,7 @@ public class 숫자의_표현 {
             if (sum == n) {
                 ++answer;
 
-                int nextValue = i+1;
+                int nextValue = i + 1;
 
                 while (!queue.isEmpty()) {
                     int sumValue = sumArray[queue.peek()];
@@ -63,7 +63,7 @@ public class 숫자의_표현 {
     public int solution2(int n) {
         int answer = 0;
 
-        for(int i = 1; i <= (n / 2) ; i++) {
+        for (int i = 1; i <= (n / 2); i++) {
             int sum = 0;
             int index = i;
 

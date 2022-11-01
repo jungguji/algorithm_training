@@ -16,7 +16,7 @@ class 단체사진_찍기Test {
 
     @Test
     void solution() {
-        assertEquals(3648, test.solution(2, new String[] {"N~F=0", "R~T>2"}));
-        assertEquals(0, test.solution(2, new String[] {"M~C<2", "C~M>1"}));
+        assertEquals(3648, test.solution(2, new String[]{"N~F=0", "R~T>2"}));
+        assertEquals(0, test.solution(2, new String[]{"M~C<2", "C~M>1"}));
     }
 }

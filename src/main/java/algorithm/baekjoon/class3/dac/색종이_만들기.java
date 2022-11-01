@@ -45,17 +45,17 @@ public class 색종이_만들기 {
 
         dac(n, 0, 0, board, map);
 
-        return new int[] {map.get(WHITE), map.get(BLUE)};
+        return new int[]{map.get(WHITE), map.get(BLUE)};
     }
 
     private static void dac(int n, int x, int y, int[][] board, Map<String, Integer> map) {
         int blueBoard = 0;
         for (int i = x; i < x + n; i++) {
-           for (int j = y; j < y + n; j++) {
-               if (board[i][j] == 1) {
-                   ++blueBoard;
-               }
-           }
+            for (int j = y; j < y + n; j++) {
+                if (board[i][j] == 1) {
+                    ++blueBoard;
+                }
+            }
         }
 
         if (blueBoard == n * n) {

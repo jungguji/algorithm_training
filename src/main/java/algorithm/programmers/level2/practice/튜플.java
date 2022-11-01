@@ -15,7 +15,7 @@ public class 튜플 {
     }
 
     private String[] getStringArray(String s) {
-        String[] array = s.substring(2, s.length()-2).replace("},{", "@").split("@");
+        String[] array = s.substring(2, s.length() - 2).replace("},{", "@").split("@");
 
         return array;
     }

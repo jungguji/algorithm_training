@@ -12,26 +12,26 @@ public class 기능개발 {
             for (int i = start; i < progresses.length; i++) {
                 progresses[i] += speeds[i];
             }
-            
+
             for (int i = start; i < progresses.length; i++) {
                 if (progresses[start] < 100) {
                     break;
                 }
-                
+
                 if (progresses[i] >= 100) {
                     ++start;
                     ++deploy;
                 }
             }
-            
+
             if (deploy != 0) {
                 list.add(deploy);
             }
         }
-        
+
 //        int[] answer = list.stream().mapToInt(i -> i).toArray();
         int[] answer = new int[list.size()];
-        
+
         for (int i = 0; i < answer.length; i++) {
             answer[i] = list.get(i);
         }

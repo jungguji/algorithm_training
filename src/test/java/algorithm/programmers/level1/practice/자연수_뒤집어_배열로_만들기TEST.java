@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class 자연수_뒤집어_배열로_만들기TEST implements TEST {
 
     private 자연수_뒤집어_배열로_만들기 test;
-    
+
     @BeforeEach
     public void setup() {
         test = new 자연수_뒤집어_배열로_만들기();
@@ -16,7 +16,7 @@ public class 자연수_뒤집어_배열로_만들기TEST implements TEST {
 
     @Test
     public void solutionTest() {
-        assertArrayEquals(new int[] {5, 4,3,2,1}, test.solution(12345));
+        assertArrayEquals(new int[]{5, 4, 3, 2, 1}, test.solution(12345));
     }
 
 }

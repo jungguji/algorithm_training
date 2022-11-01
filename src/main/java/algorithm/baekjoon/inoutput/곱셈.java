@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class 곱셈 {
     public static void main(String[] args) {
         try (
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
+                BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
         ) {
             int first = Integer.parseInt(br.readLine());
             int second = Integer.parseInt(br.readLine());

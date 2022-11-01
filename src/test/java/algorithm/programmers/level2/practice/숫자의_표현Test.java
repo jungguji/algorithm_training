@@ -32,6 +32,7 @@ class 숫자의_표현Test {
         assertEquals(2, test.solution(5));
         assertEquals(3, test.solution(49));
     }
+
     @Test
     void solution2() {
         assertEquals(4, test.solution2(15));

@@ -23,12 +23,12 @@ public class Three {
             String language = request[0];
 
             switch (language) {
-                case LANGUAGE_CPP :
-                case LANGUAGE_JAVA :
-                case LANGUAGE_PYTHON :
+                case LANGUAGE_CPP:
+                case LANGUAGE_JAVA:
+                case LANGUAGE_PYTHON:
                     goodApplicant(applicants, request, language, i, answer);
                     break;
-                case "-" :
+                case "-":
                     for (Map.Entry<String, List<Applicant>> entry : applicants.entrySet()) {
                         String key = entry.getKey();
 
@@ -51,7 +51,7 @@ public class Three {
             String[] applicant = str.split(" ");
             String language = applicant[0];
 
-            if(!map.containsKey(language)) {
+            if (!map.containsKey(language)) {
                 map.put(language, new ArrayList<>());
             }
 
@@ -79,7 +79,7 @@ public class Three {
     }
 
     private void goodApplicant(Map<String, List<Applicant>> applicants, String[] request, String language, int i, int[] answer) {
-        List <Applicant> cppApplicants = applicants.get(language);
+        List<Applicant> cppApplicants = applicants.get(language);
 
         for (Applicant a : cppApplicants) {
             if (isSame(a.group, request[1])
@@ -107,7 +107,7 @@ public class Three {
             this.language = language;
             this.group = group;
             this.profession = profession;
-            this. soulFood = soulFood;
+            this.soulFood = soulFood;
             this.score = score;
         }
     }
