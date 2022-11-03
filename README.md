@@ -23,6 +23,7 @@
 |[로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)|[JAVA](src/main/java/algorithm/programmers/level1/practice/로또의_최고_순위와_최저_순위.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/로또의_최고_순위와_최저_순위Test.java)|[]()
 |[약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884)|[JAVA](src/main/java/algorithm/programmers/level1/practice/약수의_개수와_덧셈.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/약수의_개수와_덧셈Test.java)|[]()
 |[햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|[JAVA](src/main/java/algorithm/programmers/level1/practice/햄버거_만들기.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/햄버거_만들기Test.java)|[]()
+|[신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|[JAVA](src/main/java/algorithm/programmers/level1/practice/신고_결과_받기.java)|[TEST](src/test/java/algorithm/programmers/level1/practice/신고_결과_받기Test.java)|[]()
 
 ### Lv2
 | 문제 | 코드 | 테스트 | 풀이 |
