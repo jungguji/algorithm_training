@@ -333,4 +333,5 @@
 ### Array
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|[Max Consecutive Ones](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/)|[JAVA](src/main/java/algorithm/leetcode/explore/learn/MaxConsecutiveOnes.java)|[TEST](src/test/java/algorithm/leetcode/explore/learn/MaxConsecutiveOnesTest.java)|[]()
+|[Max Consecutive Ones](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/)|[JAVA](src/main/java/algorithm/leetcode/explore/learn/array/MaxConsecutiveOnes.java)|[TEST](src/test/java/algorithm/leetcode/explore/learn/MaxConsecutiveOnesTest.java)|[]()
+|[Find Numbers with Even Number of Digits](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/)|[JAVA](src/main/java/algorithm/leetcode/explore/learn/array/EvenNumberOfDigits.java)|[TEST](src/test/java/algorithm/leetcode/explore/learn/array/EvenNumberOfDigitsTest.java)|[]()

@@ -1,5 +1,6 @@
 package algorithm.leetcode.explore.learn;
 
+import algorithm.leetcode.explore.learn.array.MaxConsecutiveOnes;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

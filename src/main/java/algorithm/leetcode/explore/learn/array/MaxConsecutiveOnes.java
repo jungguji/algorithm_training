@@ -1,4 +1,4 @@
-package algorithm.leetcode.explore.learn;
+package algorithm.leetcode.explore.learn.array;
 
 public class MaxConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
