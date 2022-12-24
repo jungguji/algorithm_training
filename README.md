@@ -341,3 +341,4 @@
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[2160. Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/)|[JAVA](src/main/java/algorithm/leetcode/problems/greedy/easy/N2160.java)|[TEST](src/test/java/algorithm/leetcode/problems/greedy/easy/N2160Test.java)|[]()
+|[1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[JAVA](src/main/java/algorithm/leetcode/problems/greedy/easy/N1221.java)|[TEST](src/test/java/algorithm/leetcode/problems/greedy/easy/N1221Test.java)|[]()
