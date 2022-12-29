@@ -347,3 +347,4 @@
 ### 누적합(Prefix Sum)
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1480.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1480Test.java)|[]()
+|[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1588.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1588Test.java)|[]()
