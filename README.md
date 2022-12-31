@@ -345,6 +345,8 @@
 |[1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[JAVA](src/main/java/algorithm/leetcode/problems/greedy/easy/N1323.java)|[TEST](src/test/java/algorithm/leetcode/problems/greedy/easy/N1323Test.java)|[]()
 
 ### 누적합(Prefix Sum)
+| 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1480.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1480Test.java)|[]()
 |[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1588.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1588Test.java)|[]()
+|[2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2485.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2485Test.java)|[]()
