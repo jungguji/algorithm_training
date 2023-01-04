@@ -14,4 +14,12 @@ class N1829Test {
         assertArrayEquals(new int[] {5,2,6,5}, test.getMaximumXor(new int[] {2,3,4,7}, 3));
         assertArrayEquals(new int[] {4,3,6,4,6,7}, test.getMaximumXor(new int[] {0,1,2,2,5,7}, 3));
     }
+
+    @Test
+    void test() {
+        int maxBit = 2;
+        int target = (1 << maxBit) - 1;
+
+        System.out.println("target = " + target);
+    }
 }

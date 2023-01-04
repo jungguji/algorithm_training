@@ -2,25 +2,16 @@ package algorithm.leetcode.problems.prefixsum.easy;
 
 public class N1829 {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
-        final int limitK = (int) Math.pow(2, maximumBit);
-
         int[] psum = getPrefixSum(nums);
 
         int[] answer = new int[nums.length];
 
         int answerIndex = 0;
+        int maxValue = (1 << maximumBit) - 1;
+
         for (int i = psum.length-1; i > 0; --i) {
-            int max = 0;
-            int k = 0;
 
-            for (int j = 0; j < limitK; ++j) {
-                if (max < (psum[i] ^ j)) {
-                    max = (psum[i] ^ j);
-                    k = j;
-                }
-            }
-
-            answer[answerIndex++] = k;
+            answer[answerIndex++] = psum[i] ^ maxValue;
         }
 
         return answer;
