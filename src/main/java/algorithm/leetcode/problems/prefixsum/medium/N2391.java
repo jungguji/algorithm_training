@@ -1,4 +1,4 @@
-package algorithm.leetcode.problems.prefixsum.easy;
+package algorithm.leetcode.problems.prefixsum.medium;
 
 public class N2391 {
 

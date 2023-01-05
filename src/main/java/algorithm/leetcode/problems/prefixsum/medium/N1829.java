@@ -1,23 +1,23 @@
-package algorithm.leetcode.problems.prefixsum.easy;
+package algorithm.leetcode.problems.prefixsum.medium;
 
 public class N1829 {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
-        int[] psum = getPrefixSum(nums);
+        int[] pxor = getPrefixXOR(nums);
 
         int[] answer = new int[nums.length];
 
         int answerIndex = 0;
         int maxValue = (1 << maximumBit) - 1;
 
-        for (int i = psum.length-1; i > 0; --i) {
+        for (int i = pxor.length-1; i > 0; --i) {
 
-            answer[answerIndex++] = psum[i] ^ maxValue;
+            answer[answerIndex++] = pxor[i] ^ maxValue;
         }
 
         return answer;
     }
 
-    private int[] getPrefixSum(int[] nums) {
+    private int[] getPrefixXOR(int[] nums) {
         int[] psum = new int[nums.length + 1];
 
         for (int i = 1; i <= nums.length; ++i) {

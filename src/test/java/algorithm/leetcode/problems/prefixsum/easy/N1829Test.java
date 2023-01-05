@@ -2,6 +2,7 @@ package algorithm.leetcode.problems.prefixsum.easy;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import algorithm.leetcode.problems.prefixsum.medium.N1829;
 import org.junit.jupiter.api.Test;
 
 class N1829Test {
@@ -21,5 +22,22 @@ class N1829Test {
         int target = (1 << maxBit) - 1;
 
         System.out.println("target = " + target);
+    }
+
+    @Test
+    void xorTEST() {
+        int x = 93;
+        int y = 12;
+        int z = x ^ y;
+
+        System.out.println("----- 초기값 -----");
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+
+        System.out.println("----- XOR -----");
+        System.out.printf("x ^ y = %d(z)\n", x^y);
+        System.out.printf("x ^ z = %d(y)\n", x^z);
+        System.out.printf("y ^ z = %d(x)\n", y^z);
     }
 }

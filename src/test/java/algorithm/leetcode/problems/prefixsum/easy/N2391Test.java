@@ -2,6 +2,7 @@ package algorithm.leetcode.problems.prefixsum.easy;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import algorithm.leetcode.problems.prefixsum.medium.N2391;
 import org.junit.jupiter.api.Test;
 
 class N2391Test {
