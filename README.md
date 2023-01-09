@@ -318,6 +318,11 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|[JAVA](src/main/java/algorithm/baekjoon/structure/silver/구간_합_구하기_4.java)|[]()|[]()
 
+### 누적 합
+|                     문제                      | 코드 |   테스트    | 풀이 |
+|:-------------------------------------------:|:-------------:|:--------:|:-------------:|
+| [수열](https://www.acmicpc.net/problem/2559) |[JAVA](src/main/java/algorithm/baekjoon/prefixsum/silver/수열.java)| [TEST](src/test/java/algorithm/baekjoon/prefixsum/silver/수열Test.java) |[]()
+
 ### 미분류
 | 문제 | 코드 | 테스트 | 풀이 |
 |:-------------:|:-------------:|:-------------:|:-------------:|
