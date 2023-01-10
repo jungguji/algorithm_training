@@ -3,17 +3,16 @@
 알고리즘 문제 풀이
 * * *
 
-## 풀이 사이트
+## 목차
 
-[프로그래머스](#프로그래머스)
-[백준](#백준)
-[릿코드](#릿코드)
+- [프로그래머스](#프로그래머스)
+  - URL : [https://programmers.co.kr/learn/challenges](https://programmers.co.kr/learn/challenges)
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+- [백준](#백준)
+  - URL : [https://www.acmicpc.net/](https://www.acmicpc.net/)
 
-> 출처: 백준 온라인 저지, https://www.acmicpc.net/
-
-> 출처 : 릿코드, https://leetcode.com/
+- [릿코드](#릿코드)
+  - URL : [https://leetcode.com/](https://leetcode.com/)
 * * *
 
 ## 프로그래머스
