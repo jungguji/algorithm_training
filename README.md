@@ -1,6 +1,13 @@
 # algorithm_training
 
 알고리즘 문제 풀이
+* * *
+
+## 풀이 사이트
+
+[프로그래머스](#프로그래머스)
+[백준](#백준)
+[릿코드](#릿코드)
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
@@ -350,13 +357,13 @@
 |[1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[JAVA](src/main/java/algorithm/leetcode/problems/greedy/easy/N1323.java)|[TEST](src/test/java/algorithm/leetcode/problems/greedy/easy/N1323Test.java)|[]()
 
 ### 누적합(Prefix Sum)
-| 문제 | 코드 | 테스트 | 풀이 |
-|:-------------:|:-------------:|:-------------:|:-------------:|
-|[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1480.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1480Test.java)|[]()
-|[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1588.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1588Test.java)|[]()
-|[2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2485.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2485Test.java)|[]()
-|[1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1732.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1732Test.java)|[]()
-|[2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2391.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2391Test.java)|[]()
-|[1829. Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1829.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1829Test.java)|[]()
-|[2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2389.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2389Test.java)|[]()
-|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/submissions/)|[JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/medium/N1314.java)|[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/medium/N1314Test.java)|[]()
+| 문제 |                                      코드                                       | 테스트 | 풀이 |
+|:-------------:|:-----------------------------------------------------------------------------:|:-------------:|:-------------:|
+|[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1480.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1480Test.java)|[]()
+|[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1588.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1588Test.java)|[]()
+|[2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2485.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2485Test.java)|[]()
+|[1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N1732.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1732Test.java)|[]()
+|[2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)| [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/medium/N2391.java) |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2391Test.java)|[]()
+|[1829. Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/medium/N1829.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N1829Test.java)|[]()
+|[2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum)|  [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/easy/N2389.java)  |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/easy/N2389Test.java)|[]()
+|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/submissions/)| [JAVA](src/main/java/algorithm/leetcode/problems/prefixsum/medium/N1314.java) |[TEST](src/test/java/algorithm/leetcode/problems/prefixsum/medium/N1314Test.java)|[]()
