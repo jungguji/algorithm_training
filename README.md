@@ -212,6 +212,7 @@
 |[유기농 배추](https://www.acmicpc.net/problem/1012)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
 |[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
 |[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/연결_요소의_개수.java)|[]()|[]()
+|[바닥 장식](https://www.acmicpc.net/problem/1388)|[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/바닥_장식.java)|[]()|[]()
 
 
 ### Heap
