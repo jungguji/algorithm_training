@@ -204,15 +204,16 @@
 
 ### BFS / DFS
 
-| 문제 | 코드 | 테스트 | 풀이 |
-|:-------------:|:-------------:|:-------------:|:-------------:|
-|[미로 탐색](https://www.acmicpc.net/problem/2178)|[JAVA](/src/main/java/algorithm/baekjoon/bfs/미로탐색.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/미로탐색Test.java)|[]()
-|[단지번호붙이기](https://www.acmicpc.net/problem/2667)|[JAVA](/src/main/java/algorithm/baekjoon/bfs/단지번호붙이기.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/단지번호붙이기Test.java)|[]()
-|[바이러스](https://www.acmicpc.net/problem/2606)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.java)|[]()|[]()
-|[유기농 배추](https://www.acmicpc.net/problem/1012)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
-|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
-|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|[JAVA](src/main/java/algorithm/baekjoon/class3/serach/연결_요소의_개수.java)|[]()|[]()
-|[바닥 장식](https://www.acmicpc.net/problem/1388)|[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/바닥_장식.java)|[]()|[]()
+|                          문제                           | 코드 | 테스트 | 풀이 |
+|:-----------------------------------------------------:|:-------------:|:-------------:|:-------------:|
+|     [미로 탐색](https://www.acmicpc.net/problem/2178)     |[JAVA](/src/main/java/algorithm/baekjoon/bfs/미로탐색.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/미로탐색Test.java)|[]()
+|    [단지번호붙이기](https://www.acmicpc.net/problem/2667)    |[JAVA](/src/main/java/algorithm/baekjoon/bfs/단지번호붙이기.java)|[TEST](/src/test/java/algorithm/baekjoon/bfs/단지번호붙이기Test.java)|[]()
+|     [바이러스](https://www.acmicpc.net/problem/2606)      |[JAVA](src/main/java/algorithm/baekjoon/class3/serach/바이러스.java)|[]()|[]()
+|    [유기농 배추](https://www.acmicpc.net/problem/1012)     |[JAVA](src/main/java/algorithm/baekjoon/class3/serach/유기농_배추.java)|[]()|[]()
+|   [DFS와 BFS](https://www.acmicpc.net/problem/1260)    |[JAVA](src/main/java/algorithm/baekjoon/class3/serach/DFS_BFS.java)|[]()|[]()
+|  [연결 요소의 개수](https://www.acmicpc.net/problem/11724)   |[JAVA](src/main/java/algorithm/baekjoon/class3/serach/연결_요소의_개수.java)|[]()|[]()
+|     [바닥 장식](https://www.acmicpc.net/problem/1388)     |[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/바닥_장식.java)|[]()|[]()
+|[점프왕 쩰리 (Small)](https://www.acmicpc.net/problem/16173)|[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/점프왕_쩰리_Small.java)|[]()|[]()
 
 
 ### Heap

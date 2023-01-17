@@ -28,10 +28,26 @@ public class 점프왕_쩰리_Small {
         System.out.println(answer);
     }
 
+    /**
+     * 종료 조건 : 1. 점프 할 위치가 배열을 벗어남
+     * 2. 이미 시도한 위치
+     * 3. 도착지에 도착함
+     *
+     * @param n
+     * @param x
+     * @param y
+     * @param graph
+     * @param visited
+     * @return
+     */
     private static boolean dfs(int n, int x, int y, int[][] graph, boolean[][] visited) {
         int jump = graph[y][x];
 
-        if (x + jump > n || y + jump > n) {
+        if (jump == 0) {
+            return false;
+        }
+
+        if (visited[y][x]) {
             return false;
         }
 
@@ -39,21 +55,19 @@ public class 점프왕_쩰리_Small {
             return true;
         }
 
-        if (visited[y][x]) {
-            return false;
+        if (x + jump < n) {
+            if (dfs(n, x+jump,y, graph, visited)) {
+                return true;
+            }
+        }
+
+        if (y + jump < n) {
+            if (dfs(n, x,y+jump, graph, visited)) {
+                return true;
+            }
         }
 
         visited[y][x] = true;
-
-
-
-        if (dfs(n, x+jump,y, graph, visited)) {
-            return true;
-        }
-
-        if (dfs(n, x,y+jump, graph, visited)) {
-            return true;
-        }
 
         return false;
     }
