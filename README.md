@@ -215,6 +215,7 @@
 |     [바닥 장식](https://www.acmicpc.net/problem/1388)     |[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/바닥_장식.java)|[]()|[]()
 |[점프왕 쩰리 (Small)](https://www.acmicpc.net/problem/16173)|[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/점프왕_쩰리_Small.java)|[]()|[]()
 |[섬의 개수](https://www.acmicpc.net/problem/4963)|[JAVA](src/main/java/algorithm/baekjoon/dfs/silver/섬의개수.java)|[]()|[]()
+|[적록색약](https://www.acmicpc.net/problem/10026)|[JAVA](src/main/java/algorithm/baekjoon/dfs/gold/적록색약.java)|[]()|[]()
 
 
 ### Heap
