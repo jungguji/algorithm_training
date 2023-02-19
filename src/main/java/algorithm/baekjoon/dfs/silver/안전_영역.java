@@ -3,7 +3,6 @@ package algorithm.baekjoon.dfs.silver;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.stream.IntStream;
 
 public class 안전_영역 {
     /**
@@ -19,21 +18,29 @@ public class 안전_영역 {
      * 리턴하면 끝... 일듯?
      *
      */
+
+    private final static int[] dx = new int[]{0, 0, -1, 1};
+    private final static int[] dy = new int[]{-1, 1, 0, 0};
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
         int[][] grid = getGrid(br, n);
 
-        int rain = getMax(n, grid);
+        int[] rains = getMaxAndMin(n, grid);
+
+        int max = rains[0];
+        int min = rains[1];
 
         int answer = 0;
-//        while (rain-- > 0) {
+        while (max-- > min-1) {
             boolean[][] visited = new boolean[n][n];
-            answer = Math.max(answer, solution(grid, visited, 4));
-//        }
+            int solution = solution(grid, visited, max);
+            answer = Math.max(answer, solution);
+        }
 
-        System.out.println("answer = " + answer);
+        System.out.println(answer);
     }
 
     private static int[][] getGrid(BufferedReader br, int n) throws IOException {
@@ -45,15 +52,16 @@ public class 안전_영역 {
         return grid;
     }
 
-    private static int getMax(int n, int[][] grid) {
-        int max = 0;
-
+    private static int[] getMaxAndMin(int n, int[][] grid) {
+        int max = 1;
+        int min = 100;
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
                 max = Math.max(max, grid[i][j]);
+                min = Math.min(min, grid[i][j]);
             }
         }
-        return max;
+        return new int[]{max, min};
     }
 
     private static int solution(int[][] grid, boolean[][] visited, int rain) {
@@ -61,8 +69,8 @@ public class 안전_영역 {
         int answer = 0;
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
-                if (dfs(j, i, grid, visited, rain)) {
-                    System.out.printf("%d %d\n", i, j);
+                if (!visited[i][j] && grid[i][j] > rain) {
+                    dfs(j, i, grid, visited, rain);
                     ++answer;
                 }
             }
@@ -70,35 +78,27 @@ public class 안전_영역 {
         return answer;
     }
 
-    private static boolean dfs(int x, int y, int[][] grid, boolean[][] visited, int rain) {
+    private static void dfs(int x, int y, int[][] grid, boolean[][] visited, int rain) {
         int n = grid.length;
-
-        if (x == n || y == n) {
-            return false;
-        }
-
-        if (grid[y][x] <= rain) {
-            return false;
-        }
-
-        if (visited[y][x]) {
-            return false;
-        }
-
         visited[y][x] = true;
 
-        if (grid[y][x] > rain && (x == n - 1 || grid[y][x + 1] > rain)) {
-            dfs(x + 1, y, grid, visited, rain);
-        }
+        for (int i = 0; i < 4; ++i) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
 
-        if (grid[y][x] > rain && (y == n - 1 || grid[y + 1][x] > rain)) {
-            dfs(x, y + 1, grid, visited, rain);
-        }
+            if (isRange(n, nx) || isRange(n, ny)) {
+                continue;
+            }
 
-        return true;
+            if (!visited[ny][nx] && grid[ny][nx] > rain) {
+                dfs(nx, ny, grid, visited, rain);
+            }
+        }
     }
 
-
+    private static boolean isRange(int limit, int index) {
+        return index < 0 || index >= limit;
+    }
 
     private static int[] convertStringArrayToIntegerArray(String[] args) {
         int[] array = new int[args.length];
