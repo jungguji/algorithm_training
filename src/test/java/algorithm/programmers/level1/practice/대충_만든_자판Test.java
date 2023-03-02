@@ -13,5 +13,6 @@ class 대충_만든_자판Test {
         assertArrayEquals(new int[]{9,4}, test.solution(new String[]{"ABACD", "BCEFD"}, new String[]{"ABCD","AABB"}));
         assertArrayEquals(new int[]{-1}, test.solution(new String[]{"AA"}, new String[]{"B"}));
         assertArrayEquals(new int[]{4,6}, test.solution(new String[]{"AGZ", "BSSS"}, new String[]{"ASA","BGZ"}));
+        assertArrayEquals(new int[]{-1}, test.solution(new String[]{"AA"}, new String[]{"BA"}));
     }
 }
