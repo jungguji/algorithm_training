@@ -61,7 +61,11 @@ public class 대충_만든_자판 {
         for (char target : targets) {
             int min = getMinCount(keyIndex, target);
 
-            sum += min == 101 ? -1 : min;
+            if (min == 101) {
+                return -1;
+            }
+
+            sum += min;
         }
 
         return sum;
