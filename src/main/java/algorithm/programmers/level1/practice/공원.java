@@ -1,29 +1,42 @@
 package algorithm.programmers.level1.practice;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class 공원 {
     public int solution(int[] mats, String[][] park) {
-        /*
-        mats를 내림차로 정렬한번 하고
-        mats 길이만큼 루프
-        intPark[y][x] 원소 값이 mats[i] 보다 크면 y++ 해서 아래로 내려가고
-        세로 값 증가
-        [y+1][x] 값이 mats[i] ㅂ다 큰지 또 보고 또 크면 또내려가고
-        안크면 x 증가시키는데 x 값이 mats[i] 보다 작으면 내려가는데 크거나 같은애 만날때까지 내려가
-
-        y값이 mats[i]보다 크고 [y][x] 값도 mats[i]보다 크면 얜 가능한 애
-
-         */
-
         int[][] intParks = getIntParks(park);
 
         Arrays.sort(mats);
 
-        System.out.println("intParks = " + intParks);
-        return 1;
+        int answer = -1;
+
+        for (int i = mats.length -1; i >= 0; --i) {
+            boolean[][] visit = new boolean[intParks.length][intParks[0].length];
+            int height = 0;
+            int widthStartIndex = 0;
+
+            for (int y = 0; y < intParks.length; ++y) {
+
+                for (int x = widthStartIndex; x < intParks[0].length; ++x) {
+                    if (!visit[y][x] && intParks[y][x] >= mats[i]) {
+                        ++height;
+                        visit[y][x] = true;
+                        widthStartIndex = x;
+                        break;
+                    } else if (height > 0) {
+                        y -= height+1;
+                        height = 0;
+                        break;
+                    }
+                }
+
+                if (height == mats[i]) {
+                    return mats[i];
+                }
+            }
+        }
+
+        return answer;
     }
 
     private int[][] getIntParks(String[][] park) {
