@@ -398,4 +398,16 @@ class 공원Test {
         assertEquals(5, 공원.solution(mats, park));
     }
 
+    @Test
+    void test15() {
+        공원 공원 = new 공원();
+        int solution = 공원.solution(new int[]{2}, new String[][]{
+                {"A", "-1", "-1"},
+                {"-1", "-1", "B"},
+                {"-1", "-1", "-1"}
+        });
+
+        assertEquals(2, solution);
+    }
+
 }

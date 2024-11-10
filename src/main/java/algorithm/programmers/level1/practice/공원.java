@@ -26,6 +26,7 @@ public class 공원 {
                     } else if (height > 0) {
                         y -= height+1;
                         height = 0;
+                        widthStartIndex = 0;
                         break;
                     }
                 }
@@ -57,3 +58,42 @@ public class 공원 {
         return intParks;
     }
 }
+
+/**
+ * GPT 답변
+ */
+
+/*
+public int solution(int[] mats, String[][] park) {
+    Arrays.sort(mats); // 큰 돗자리부터 탐색
+    for (int i = mats.length - 1; i >= 0; i--) {
+        int matSize = mats[i];
+        if (canPlaceMat(park, matSize)) {
+            return matSize;
+        }
+    }
+    return -1;
+}
+
+private boolean canPlaceMat(String[][] park, int size) {
+    for (int y = 0; y <= park.length - size; y++) {
+        for (int x = 0; x <= park[0].length - size; x++) {
+            if (isAreaEmpty(park, y, x, size)) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+private boolean isAreaEmpty(String[][] park, int startY, int startX, int size) {
+    for (int y = startY; y < startY + size; y++) {
+        for (int x = startX; x < startX + size; x++) {
+            if (!park[y][x].equals("-1")) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+ */
