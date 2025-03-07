@@ -1,4 +1,4 @@
-package algorithm.baekjoon.math.silver;
+package algorithm.baekjoon.recursive.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
