@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class 좌표_정렬하기 {
@@ -19,7 +18,7 @@ public class 좌표_정렬하기 {
                 list.add(array);
             }
 
-            Collections.sort(list, (a1, a2) -> a1[0] > a2[0] ? 1 : a1[0] < a2[0] ? -1 : a1[1] > a2[1] ? 1 : a1[1] < a2[1] ? -1 : 1);
+            list.sort((a1, a2) -> compare(a1, a2));
 
             for (int[] i : list) {
                 System.out.println(i[0] + " " + i[1]);
@@ -35,5 +34,22 @@ public class 좌표_정렬하기 {
         }
 
         return array;
+    }
+
+
+    private static int compare(int[] a1, int[] a2) {
+        if (a1[0] > a2[0]) {
+            return 1;
+        } else if (a1[0] < a2[0]) {
+            return -1;
+        } else {
+            if (a1[1] > a2[1]) {
+                return 1;
+            } else if (a1[1] < a2[1]) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
     }
 }
