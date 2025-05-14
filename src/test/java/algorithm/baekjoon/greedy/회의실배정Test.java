@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import algorithm.baekjoon.greedy.gold.회의실배정;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
