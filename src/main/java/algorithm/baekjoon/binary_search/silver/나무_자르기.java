@@ -1,4 +1,4 @@
-package algorithm.baekjoon.binary_search;
+package algorithm.baekjoon.binary_search.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
