@@ -12,8 +12,7 @@ public class Java_Bitecode {
             s = s.replace("J", "");
             s = s.replace("A", "");
             s = s.replace("V", "");
-
-            System.out.println(s.isEmpty() ? "nojava" : s);
+            System.out.println(s.length() == 0 ? "nojava" : s);
         }
     }
 }
