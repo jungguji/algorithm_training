@@ -1,4 +1,4 @@
-package algorithm.baekjoon.graph.silver;
+package algorithm.baekjoon.graph.traversal.gold;
 
 import java.io.BufferedReader;
 import java.io.IOException;
