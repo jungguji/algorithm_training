@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level1.sort;
 
 public class 로또의최고순위와최저순위 {
 

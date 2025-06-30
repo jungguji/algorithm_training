@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level2.bruteforce;
 
 import java.util.LinkedList;
 import java.util.Queue;

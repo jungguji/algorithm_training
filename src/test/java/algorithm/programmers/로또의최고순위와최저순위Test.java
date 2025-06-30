@@ -1,5 +1,6 @@
 package algorithm.programmers;
 
+import algorithm.programmers.level1.sort.로또의최고순위와최저순위;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
