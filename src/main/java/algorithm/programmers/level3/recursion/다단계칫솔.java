@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level3.recursion;
 
 import java.util.*;
 
