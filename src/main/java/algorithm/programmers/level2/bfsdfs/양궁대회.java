@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level2.bfsdfs;
 
 public class 양궁대회 {
 
