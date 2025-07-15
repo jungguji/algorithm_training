@@ -1,5 +1,6 @@
 package algorithm.programmers;
 
+import algorithm.programmers.level3.dp.prefixsum.파괴되지않은건물;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

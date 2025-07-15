@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level3.dp.prefixsum;
 
 public class 파괴되지않은건물 {
     public int solution(int[][] board, int[][] skill) {

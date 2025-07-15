@@ -1,5 +1,6 @@
 package algorithm.programmers;
 
+import algorithm.programmers.level3.graph.traversal.사라지는발판;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

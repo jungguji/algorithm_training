@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level3.graph.traversal;
 
 import java.util.ArrayList;
 import java.util.Collections;
