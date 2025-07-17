@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class 성격유형검사하기 {
+
     private static final String[] 유형 = new String[]{"R", "T", "C", "F", "J", "M", "A", "N"};
+    private static final String[][] 지표 = new String[][]{{"R", "T"}, {"C","F"}, {"J", "M"}, {"A", "N"}};
 
     public String solution(String[] survey, int[] choices) {
         Map<String, Integer> map = new HashMap<>();
@@ -24,17 +26,17 @@ public class 성격유형검사하기 {
         }
 
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < survey.length; ++i) {
-            String[] split = survey[i].split("");
-            Integer 성격1 = map.get(split[0]);
-            Integer 성격2 = map.get(split[1]);
+
+        for (String[] strings : 지표) {
+            Integer 성격1 = map.get(strings[0]);
+            Integer 성격2 = map.get(strings[1]);
 
             if (성격1 > 성격2) {
-                sb.append(split[0]);
+                sb.append(strings[0]);
             } else if (성격1 < 성격2) {
-                sb.append(split[1]);
+                sb.append(strings[1]);
             } else {
-                sb.append(Math.min(split[0].charAt(0), split[1].charAt(0)));
+                sb.append((char)Math.min(strings[0].charAt(0), strings[1].charAt(0)));
             }
         }
 
