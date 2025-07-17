@@ -1,5 +1,6 @@
 package algorithm.programmers;
 
+import algorithm.programmers.level1.avatar.성격유형검사하기;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

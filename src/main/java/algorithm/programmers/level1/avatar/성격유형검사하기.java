@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.level1.avatar;
 
 import java.util.HashMap;
 import java.util.Map;
