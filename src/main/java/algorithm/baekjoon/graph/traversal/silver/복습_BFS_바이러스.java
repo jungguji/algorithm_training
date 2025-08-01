@@ -3,7 +3,7 @@ package algorithm.baekjoon.graph.traversal.silver;
 import java.io.*;
 import java.util.*;
 
-public class 복습_바이러스 {
+public class 복습_BFS_바이러스 {
 
     private static List<List<Integer>> matrix = new ArrayList<>();
     private static boolean[] VISITED;
