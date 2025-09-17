@@ -6,24 +6,25 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-public class 인사성밝은곰곰이 {
+public class 붙임성좋은총총이 {
+    private static final String ChongChong = "ChongChong";
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        int count = 0;
         Set<String> set = new HashSet<>();
         while (N-- > 0) {
-            String str = br.readLine();
-            if ("ENTER".equals(str)) {
-                set.clear();
-                continue;
-            }
-            if (set.add(str)) {
-                ++count;
+            String[] s = br.readLine().split(" ");
+            if (
+                    ChongChong.equals(s[0]) || ChongChong.equals(s[1])
+                    || set.contains(s[0]) || set.contains(s[1])
+            ) {
+                set.add(s[0]);
+                set.add(s[1]);
             }
         }
 
-        System.out.println(count);
+        System.out.println(set.size());
     }
 }
